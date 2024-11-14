@@ -1,0 +1,14 @@
+====================================================================
+                             About Fonts
+====================================================================
+Upheavel TT BRK (pixel) -> Header, title
+---> License: 100% free (personal use & commercial use)
+
+EASVHS (pixel) -> Paragraf, button, countdown, footer, profile, etc.
+---> License: 100% free (personal use & commercial use)
+
+Bell MT (serif) -> Graphic elements (clock number)
+---> License: Free for personal use
+
+Caudex (serif) -> Graphic elements (Greek alphabet)
+---> License: 100% free (personal use & commercial use)
