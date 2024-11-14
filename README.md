@@ -7,6 +7,7 @@
 2. EASVHS
 3. Caudex
 4. Bell MT
+
 **License:** /assets/fonts/about.txt
 
 #### **Frameworks:**
