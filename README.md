@@ -1,4 +1,4 @@
-# **Repository Website MUBES Informatika 2024**
+# **Website MUBES Informatika 2024**
 
 ## **Description**
 Website E-Vote MUBES Informatika 2024 adalah website 
