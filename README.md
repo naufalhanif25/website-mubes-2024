@@ -1,7 +1,6 @@
 ## **Repository Website MUBES Informatika 2024**
 
-### **Link Figma:**
-[Figma](https://www.figma.com/design/VgkaqMaIDDh2IdytyGy1Gk/Website-MUBES-2024?node-id=0-1&t=fv5I9m3xOcn4Hpp4-1)
+### **Link Figma:** [Website MUBES 2024](https://www.figma.com/design/VgkaqMaIDDh2IdytyGy1Gk/Website-MUBES-2024?node-id=0-1&t=fv5I9m3xOcn4Hpp4-1)
 
 ### **Fonts:**
 1. Upheaval TT BRK
