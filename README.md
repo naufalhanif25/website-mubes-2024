@@ -7,7 +7,7 @@
 2. EASVHS
 3. Caudex
 4. Bell MT
-**License:** [assets/fonts/about.txt]
+**License:** /assets/fonts/about.txt
 
 #### **Frameworks:**
 1. Laravel
