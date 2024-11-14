@@ -1,5 +1,12 @@
-## **Repository Website MUBES Informatika 2024**
+# **Repository Website MUBES Informatika 2024**
 
+## **Description**
+Website E-Vote MUBES Informatika 2024 adalah website 
+pemilihan ketua Himpunan Mahasiswa Informatika (HMIF) 
+periode 2024-2025 dalam rangka Musyawarah Besar (MUBES) 
+Himpunan Mahasiswa Informatika ke VII.
+
+## **About**
 **Figma:** [Website MUBES 2024](https://www.figma.com/design/VgkaqMaIDDh2IdytyGy1Gk/Website-MUBES-2024?node-id=0-1&t=fv5I9m3xOcn4Hpp4-1)
 
 **Fonts:**
