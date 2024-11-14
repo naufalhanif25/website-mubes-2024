@@ -1,17 +1,26 @@
-**Repository Website MUBES Informatika 2024**
+# **Website MUBES Informatika 2024**
 
-Link Figma: https://www.figma.com/design/VgkaqMaIDDh2IdytyGy1Gk/Website-MUBES-2024?node-id=0-1&t=fv5I9m3xOcn4Hpp4-1
+## **Description**
+Website E-Vote MUBES Informatika 2024 adalah website 
+pemilihan ketua Himpunan Mahasiswa Informatika (HMIF) 
+periode 2024-2025 dalam rangka Musyawarah Besar (MUBES) 
+Himpunan Mahasiswa Informatika ke VII.
 
-Font:
+## **About**
+**Figma:** [Website MUBES 2024](https://www.figma.com/design/VgkaqMaIDDh2IdytyGy1Gk/Website-MUBES-2024?node-id=0-1&t=fv5I9m3xOcn4Hpp4-1)
+
+**Fonts:**
 1. Upheaval TT BRK
 2. EASVHS
 3. Caudex
 4. Bell MT
 
-Made with:
-1. MongoDB
-2. Express.js
-3. React.js
-4. Node.js
+**License:** *assets -> fonts -> about.txt*
 
-Website link: 
+**Frameworks:**
+1. Laravel
+2. TailwindCSS
+
+**Database:** XAMPP (MySQL)
+
+**Website URL:**
