@@ -21,6 +21,6 @@ Himpunan Mahasiswa Informatika ke VII.
 1. Laravel
 2. TailwindCSS
 
-**Database:** (MySQL)
+**Database:** MySQL
 
 **Website URL:**
