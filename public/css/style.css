@@ -1,0 +1,361 @@
+@font-face {
+    font-family: upheaval;
+    src: url(upheavtt.ttf);
+}
+
+@font-face {
+    font-family: easvhs;
+    src: url(easvhs.ttf);
+}
+
+.main{
+    font-family: upheaval;
+    background-color: white;
+    overflow: hidden;   
+}
+
+.typewriter-animation {
+    color: black;
+    font-size: 2.8em;
+    overflow: hidden;
+    border-right: .12em solid #fbc531;
+    white-space: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1em;
+    letter-spacing: .05em;
+    animation: typing 5s steps(30, end) forwards, blink-caret .9s infinite;
+    text-align: center;
+}
+
+.box {
+    width: 32em;
+    height: 32em;
+    margin-top: 5em;
+    margin-left: 15em;
+    background-color: #faecb0;
+    box-shadow: 15px 15px black;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: black;
+    z-index: 1;
+}
+
+.gear1 {
+    display: flex;
+    width: 28%;
+    margin-left: 15em;
+    margin-top: -25em;
+    image-rendering: pixelated;
+    animation: gear1 8s infinite;
+    z-index: 3;
+}
+
+@keyframes gear1 {
+    100% {transform: rotate(-360deg);}
+}
+
+.gear2 {
+    display: flex;
+    width: 35%;
+    margin-top: 7em;
+    margin-left: 3em;
+    image-rendering: pixelated;
+    animation: gear2 8s infinite;
+}
+
+@keyframes gear2 {
+    100% {transform: rotate(360deg);}
+}
+
+.boy {
+    display: flex;
+    position: relative;
+    width: 70%;
+    margin-top: 5em;
+    margin-left: 5em;
+    image-rendering: pixelated;
+    animation-name: floating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    rotate: -48deg;
+    z-index: 4;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px);
+           transform: rotate(-10deg); }
+    to   { transform: translate(0, -0px); } 
+}
+
+.clock {
+    width: 70%;
+    margin-top: -35em;
+    margin-left: 5em;
+    position: relative;
+    image-rendering: pixelated;
+    animation: clock 8s infinite;
+    z-index: 2;
+}
+
+@keyframes clock {
+    100% {transform: rotate(360deg);}
+}
+
+.text {
+    display: flex;
+    position: relative;
+    color: black;
+    font-family: easvhs;
+    letter-spacing: .14em;
+    font-size: 28px;
+    margin-left: 33em;
+    margin-top: -19em; 
+}
+
+.p1 {
+    position: relative;
+    font-size: 18px;
+    letter-spacing: .1em;
+    line-height: 1.5;
+    padding-right: 5em;
+    text-align: justify;
+}
+
+.p2 {
+    position: relative;
+    font-size: 18px;
+    letter-spacing: .1em;
+    line-height: 1.5;
+    padding-right: 5em;
+    text-align: justify;
+}
+
+.a{
+    text-decoration: none;
+    text-align: left;
+}
+
+.button {
+    display: flex;
+    position: relative;
+    font-family: easvhs;
+    font-size: 20px;
+    background-color: #F1C40F;
+    color: black;
+    padding: 20px 60px;
+    margin-left: 46em;
+    margin-top: 5em;
+    box-shadow: 8px 8px black;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: black;
+    cursor: pointer;
+}
+
+.button2 {
+    padding: 20px 70px;
+    margin-top: -3.2em;
+    margin-left: 60em;
+}
+
+.button:hover {
+    background-color: green;
+    color: white;
+    box-shadow: 3px 3px black;
+}
+
+.button1:hover {
+    margin-top: 5.2em;
+    margin-left: 46.2em;
+    margin-bottom: -3.4em;
+}
+
+.button2:hover {
+    margin-top: -3em;
+    margin-left: 60.2em;
+    margin-bottom: -0.2em
+}
+
+.hmif {
+    display: flex;
+    position: relative;
+    width: 2em;
+    padding-left: 2em;
+    top: 6.5em;
+    margin-top: -3.5em;
+}
+
+.if {
+    display: flex;
+    position: relative;
+    width: 3em;
+    padding-left: 6em;
+    top: 4.5em;
+}
+
+.usk {
+    display: flex;
+    position: relative;
+    width: 2em;
+    padding-left: 11em;
+    top: 2.5em;
+}
+
+.footer_t {
+    position: relative;
+    font-family: easvhs;
+    text-align: center;
+    top: 0.3em;
+}
+
+.login_pg {
+    overflow: hidden;
+}
+
+.icon {
+    position: relative;
+    width: 3em;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+.footer_lg {
+    bottom: -6.2em;
+    display: flex;
+    position: relative;
+    width: 120em;
+    margin-left: -0.5em;
+    color: #faecb0;
+}
+
+.form {
+    width: 55em;
+    height: 30em;
+    background-color: #faecb0;
+    border-radius: 30px;
+    margin: 5em auto;
+    box-shadow: 10px 10px black;
+    border-style: solid;
+    border-color: black;
+}
+
+.img_form{
+    width: 27.5em;
+    height: 30em;
+    background-color: black;
+    background-repeat: no-repeat;
+    border-radius: 30px 0 0 30px;
+}
+
+.form_lg {
+    position: relative;
+}
+
+.stars {
+    width: 28em;
+    height: 30em;
+}
+
+.text_lg {
+    text-align: center;
+}
+
+.text_lg {
+    font-family: upheaval;
+    letter-spacing: .125em;
+    overflow: hidden;
+    border-right: .12em solid #fbc531;
+    font-size: 3em;
+    margin-left: 11.5em;
+    margin-top: -9em;
+    margin-bottom: 1em;
+    white-space: nowrap;
+    animation: typing 5s steps(10, end) forwards, blink-caret .9s infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 48% }
+}
+  
+@keyframes blink-caret {
+    from { border-color: transparent }
+    10% { border-color: #fbc531; }
+    to {border-color: transparent;}
+}
+
+.inp {
+    position: relative;
+    padding: 16px 100px;
+    margin-top: 1.8em;
+    border-radius: 8px;
+    background-color: beige;
+    left: 35em;
+    box-shadow: 5px 5px black;
+}
+
+.inp::placeholder {
+    position: absolute;
+    font-family: easvhs;
+    font-size: 18px;
+    margin-left: -5em;
+    padding-left: -50px;
+    color: lightgrey;
+    justify-content: left;
+    outline: none;
+    text-align: left;
+}
+
+.submit {
+    font-family: easvhs;
+    background-color: #F1C40F;
+    position: relative;
+    padding: 14px 50px;
+    left: 45em;
+    border-radius: 8px;
+    box-shadow: 5px 5px black;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: green;
+    color: white;
+    top: .2em;
+    left: 45.2em;
+    box-shadow: 2px 2px black;
+}
+
+.text_rg {
+    font-family: upheaval;
+    letter-spacing: .125em;
+    overflow: hidden;
+    border-right: .12em solid #fbc531;
+    font-size: 3em;
+    margin-left: 11em;
+    margin-top: -9em;
+    margin-bottom: 1em;
+    white-space: nowrap;
+    animation: typing2 5s steps(10, end) forwards, blink-caret .9s infinite;
+}
+
+@keyframes typing2 {
+    from { width: 0 }
+    to { width: 65% }
+}
+
+.link {
+    font-family: easvhs;
+    font-size: .9em;
+    text-decoration: none;
+    position: relative;
+    top: .7em;
+    left: 45em;
+}
+
+.link2 {
+    position: relative;
+    left: 43em;
+}
