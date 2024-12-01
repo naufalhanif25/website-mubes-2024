@@ -17,7 +17,7 @@
             <div class="form_lg">
             <img src="/img/stars.png" alt="" class="stars">
             <h2 class="text_lg">LOG IN</h2>
-            <input type="text" placeholder="Masukkan Username" name="username" id="username" required class="inp">
+            <input type="text" placeholder="Masukkan NPM" name="npm" id="npm" required class="inp">
             <br>
             <input type="password" placeholder="Masukkan Password" name="password" id="password" required class="inp">
             <a href="register" class="link">
