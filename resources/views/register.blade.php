@@ -18,6 +18,7 @@
             <img src="/img/stars.png" alt="" class="stars">
             <h2 class="text_rg">REGISTER</h2>
             <form action="{{ route('register.submit') }}" method="POST">
+                @csrf
                 <input type="text" placeholder="Masukkan NPM" name="npm" id="npm" required class="inp inp1">
                 <br>
                 <input type="text" placeholder="Masukkan Nama" name="name" id="name" required class="inp inp2">
