@@ -17,9 +17,11 @@
             <div class="form_lg">
             <img src="/img/stars.png" alt="" class="stars">
             <h2 class="text_rg">REGISTER</h2>
-            <input type="text" placeholder="Masukkan Username" name="username" id="username" required class="inp">
+            <input type="text" placeholder="Masukkan NPM" name="id_nim" id="id_nim" required class="inp inp1">
             <br>
-            <input type="password" placeholder="Masukkan Password" name="password" id="password" required class="inp">
+            <input type="text" placeholder="Masukkan Nama" name="password" id="password" required class="inp inp2">
+            <br>
+            <input type="password" placeholder="Masukkan Password" name="password" id="password" required class="inp inp3">
             <a href="login" class="link link2">
                 <p>Udah punya akun? Langsung Log In</p>
             </a>
@@ -29,7 +31,7 @@
         </div>
     </div>
     <div>
-        <img src="/img/footer.png" alt="" class="footer_lg">
+        <img src="/img/footer.png" alt="" class="footer">
     </div>
     <div class="footer_icon">
         <img src="/img/hmif.png" alt="" class="hmif">

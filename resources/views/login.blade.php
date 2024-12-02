@@ -17,10 +17,10 @@
             <div class="form_lg">
             <img src="/img/stars.png" alt="" class="stars">
             <h2 class="text_lg">LOG IN</h2>
-            <input type="text" placeholder="Masukkan Username" name="username" id="username" required class="inp">
+            <input type="text" placeholder="Masukkan Username" name="username" id="username" required class="inp inp4">
             <br>
-            <input type="password" placeholder="Masukkan Password" name="password" id="password" required class="inp">
-            <a href="register" class="link">
+            <input type="password" placeholder="Masukkan Password" name="password" id="password" required class="inp inp5">
+            <a href="register" class="link link3">
                 <p>Belum punya akun? Sign Up dulu</p>
             </a>
             <br>
@@ -29,7 +29,7 @@
         </div>
     </div>
     <div>
-        <img src="/img/footer.png" alt="" class="footer_lg">
+        <img src="/img/footer.png" alt="" class="footer">
     </div>
     <div class="footer_icon">
         <img src="/img/hmif.png" alt="" class="hmif">
