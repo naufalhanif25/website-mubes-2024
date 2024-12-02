@@ -15,16 +15,24 @@
     <div class="form">
         <div class="img_form">
             <div class="form_lg">
-            <img src="/img/stars.png" alt="" class="stars">
-            <h2 class="text_lg">LOG IN</h2>
-            <input type="text" placeholder="Masukkan NPM" name="npm" id="npm" required class="inp">
-            <br>
-            <input type="password" placeholder="Masukkan Password" name="password" id="password" required class="inp">
-            <a href="register" class="link">
-                <p>Belum punya akun? Sign Up dulu</p>
-            </a>
-            <br>
-            <button class="submit">Login</button>
+                <img src="/img/stars.png" alt="" class="stars">
+                <h2 class="text_lg">LOG IN</h2>
+                <form action="{{ route('login.submit') }}" method="POST">
+                    @csrf
+                    <input type="text" placeholder="Masukkan NPM" name="npm" id="npm" required class="inp">
+                    <br>
+                    <input type="password" placeholder="Masukkan Password" name="password" id="password" required class="inp">
+                    <a href="register" class="link">
+                        <p>Belum punya akun? Sign Up dulu</p>
+                    </a>
+                    <br>
+                    <button class="submit">Login</button>
+                </form>
+
+                @if(session('gagal'))
+                   <p class="text-danger">{{ session('gagal') }}</p> 
+                @endif
+                
             </div>    
         </div>
     </div>

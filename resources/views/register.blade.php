@@ -17,9 +17,8 @@
             <div class="form_lg">
                 <img src="/img/stars.png" alt="" class="stars">
                 <h2 class="text_rg">REGISTER</h2>
-
                 <!-- Form Register -->
-                <form action="{{ route('register.store') }}" method="POST">
+                <form action="{{ route('register.submit') }}" method="POST">
                     @csrf
                     <!-- Input NPM -->
                     <input type="text" placeholder="Masukkan NPM" name="npm" id="npm" required class="inp" value="{{ old('npm') }}">
@@ -41,7 +40,7 @@
                         <p style="color: red;">{{ $message }}</p>
                     @enderror
                     
-                    <a href="{{ route('login') }}" class="link link2">
+                    <a href="{{ route('login.tampil') }}" class="link link2">
                         <p>Udah punya akun? Langsung Log In</p>
                     </a>
                     <br>

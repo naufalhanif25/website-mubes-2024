@@ -4,20 +4,19 @@ namespace App\Http\Controllers;
 
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class UserController extends Controller
 {
-    public function index(){
+    public function TampilRegister(){
         return view('register');
     }
-    public function login(){
-        return view('login');
-    }
-    public function store(Request $request)
+    
+    public function SubmitRegistrasi(Request $request)
     {
         // Validasi input
         $request->validate([
-            'npm' => 'required|string|max:12|unique:users,npm', // Sesuaikan dengan nama tabel Anda
+            'npm' => 'required|string|min:12|max:13|unique:users,npm', // Sesuaikan dengan nama tabel Anda
             'name' => 'required|string|max:100',
             'password' => 'required|string|min:8',
         ]);
@@ -30,6 +29,29 @@ class UserController extends Controller
         ]);
 
         // Redirect ke halaman login dengan pesan sukses
-        return redirect()->route('login')->with('success', 'Pendaftaran berhasil. Silakan login.');
+        return redirect()->route('home.Tampil');
+    }
+
+    public function TampilHome(){
+        return view('main');
+    }
+
+    public function TampilVote(){
+        return view('vote');
+    }
+
+    public function TampilLogin(){
+        return view('login');
+    }
+
+    public function SubmitLogin(Request $request){
+        $data = $request->only('npm','password');
+
+        if (Auth::attempt($data)){
+            $request->session()->regenerate();
+            return redirect()->route('vote.Tampil');
+        } else {
+            return redirect()->back()->with('gagal','email atau password salah');
+        }
     }
 }
