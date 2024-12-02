@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -21,3 +22,12 @@ Route::get('/vote', function () {
 Route::get('/register', function () {
     return view('register');
 });
+
+route:: get('/register',[UserController::class, 'TampilRegister'])->name('register.Tampil');
+route:: post('/register',[UserController::class, 'SubmitRegistrasi'])->name('register.submit');
+
+route:: get('/home',[UserController::class, 'TampilHome'])->name('home.Tampil');
+route:: get('/vote',[UserController::class, 'TampilVote'])->name('vote.Tampil');
+
+route:: get('/login',[UserController::class, 'TampilLogin'])->name('login.tampil');
+route:: post('/login',[UserController::class, 'SubmitLogin'])->name('login.submit');
