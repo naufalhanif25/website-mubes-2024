@@ -28,6 +28,9 @@
                 <br>
                 <button class="submit">Login</button>
             </form>
+            @if (session('gagal'))
+                <p class="text-danger">{{ session('gagal') }}</p>
+            @endif
             </div>    
         </div>
     </div>
