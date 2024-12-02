@@ -24,15 +24,21 @@
     margin-right: auto;
     margin-bottom: -1em;
     letter-spacing: .05em;
-    animation: typing 5s steps(30, end) forwards, blink-caret .9s infinite;
+    animation: typing1 5s steps(30, end) forwards, blink-caret .9s infinite;
     text-align: center;
 }
 
+@keyframes typing1 {
+    from { width: 0 }
+    to { width: 43% }
+}
+
 .box {
+    position: absolute;
     width: 32em;
     height: 32em;
-    margin-top: 5em;
-    margin-left: 15em;
+    top: 15em;
+    left: 10em;
     background-color: #faecb0;
     box-shadow: 15px 15px black;
     border-radius: 25px;
@@ -106,31 +112,33 @@
 
 .text {
     display: flex;
-    position: relative;
+    position: absolute;
     color: black;
     font-family: easvhs;
     letter-spacing: .14em;
     font-size: 28px;
-    margin-left: 33em;
-    margin-top: -19em; 
+    left: 30em;
+    top: 8em;
 }
 
 .p1 {
-    position: relative;
+    display: flex;
     font-size: 18px;
     letter-spacing: .1em;
     line-height: 1.5;
-    padding-right: 5em;
     text-align: justify;
+    top: 5em;
+    margin-right: 7em;
 }
 
 .p2 {
-    position: relative;
+    position: absolute;
     font-size: 18px;
     letter-spacing: .1em;
     line-height: 1.5;
-    padding-right: 5em;
     text-align: justify;
+    top: 11em;
+    margin-right: 7em;
 }
 
 .a{
@@ -140,25 +148,34 @@
 
 .button {
     display: flex;
-    position: relative;
+    position: absolute;
     font-family: easvhs;
     font-size: 20px;
     background-color: #F1C40F;
     color: black;
     padding: 20px 60px;
-    margin-left: 46em;
-    margin-top: 5em;
     box-shadow: 8px 8px black;
     border-radius: 8px;
     border-style: solid;
     border-color: black;
     cursor: pointer;
+    top: 32em;
+}
+
+.button1 {
+    position: absolute;
+    left: 42em;
+
 }
 
 .button2 {
-    padding: 20px 70px;
-    margin-top: -3.2em;
-    margin-left: 60em;
+    position: absolute;
+    left: 56em;
+}
+
+.button3 {
+    position: absolute;
+    left: 69em;
 }
 
 .button:hover {
@@ -168,47 +185,19 @@
 }
 
 .button1:hover {
-    margin-top: 5.2em;
-    margin-left: 46.2em;
-    margin-bottom: -3.4em;
+    position: absolute;
 }
 
 .button2:hover {
-    margin-top: -3em;
-    margin-left: 60.2em;
-    margin-bottom: -0.2em
-}
-
-.hmif {
-    display: flex;
-    position: relative;
-    width: 2em;
-    padding-left: 2em;
-    top: 6.5em;
-    margin-top: -3.5em;
-}
-
-.if {
-    display: flex;
-    position: relative;
-    width: 3em;
-    padding-left: 6em;
-    top: 4.5em;
-}
-
-.usk {
-    display: flex;
-    position: relative;
-    width: 2em;
-    padding-left: 11em;
-    top: 2.5em;
+    position: absolute;
 }
 
 .footer_t {
-    position: relative;
+    position: absolute;
     font-family: easvhs;
     text-align: center;
-    top: 0.3em;
+    left: 45em;
+    bottom: 0.5em;
 }
 
 .login_pg {
@@ -220,15 +209,6 @@
     width: 3em;
     margin-top: 2em;
     margin-left: 2em;
-}
-
-.footer_lg {
-    bottom: -6.2em;
-    display: flex;
-    position: relative;
-    width: 120em;
-    margin-left: -0.5em;
-    color: #faecb0;
 }
 
 .form {
@@ -288,13 +268,32 @@
 }
 
 .inp {
-    position: relative;
+    position: absolute;
     padding: 16px 100px;
-    margin-top: 1.8em;
     border-radius: 8px;
     background-color: beige;
     left: 35em;
     box-shadow: 5px 5px black;
+}
+
+.inp2 {
+    top: 10em;
+}
+
+.inp1 {
+    top: 15em;
+}
+
+.inp3 {
+    top: 20em;
+}
+
+.inp4 {
+    top: 12em;
+}
+
+.inp5 {
+    top: 17em;
 }
 
 .inp::placeholder {
@@ -314,6 +313,7 @@
     background-color: #F1C40F;
     position: relative;
     padding: 14px 50px;
+    top: 10em;
     left: 45em;
     border-radius: 8px;
     box-shadow: 5px 5px black;
@@ -323,7 +323,7 @@
 .submit:hover {
     background-color: green;
     color: white;
-    top: .2em;
+    top: 10.2em;
     left: 45.2em;
     box-shadow: 2px 2px black;
 }
@@ -356,6 +356,105 @@
 }
 
 .link2 {
-    position: relative;
     left: 43em;
+    top: 10em;
+}
+
+.link3 {
+    top: 9em;
+}
+
+.menu {
+    display: inline-block;
+    position: relative;
+}
+
+.menu_img {
+    width: 2.5em;
+    position: relative;
+    top: 1em;
+    left: 2em;
+}
+ 
+.menu_content {
+    display: none;
+    position: relative;
+    background-color: black;
+    color: white;
+    min-width: 160px;
+    margin: -2.2em 1em;
+    padding: 12px 16px;
+    border-radius: 10px;
+    border: solid 2px white;
+    box-shadow: 6px 6px black;
+    z-index: 1;
+    transition-delay: 2s;
+}
+
+.link_content {
+    text-decoration: none;
+    font-family: easvhs;
+}
+
+.text_content {
+    color: white;
+    position: relative;
+    padding-top: 1em;
+    left: .6em;
+}
+
+.pseudo_btn {
+    background-color: transparent;
+    border: none;
+}
+
+.menu:focus-within .menu_content {
+    display: block;
+}
+
+.cross {
+    position: relative;
+    top: 1em;
+    left: .5em;
+    margin-bottom: 1em;
+    width: 1.3em;
+    animation: transform 1s forwards;
+}
+
+@keyframes transform {
+    from {transform: rotate(0);}
+    100% {transform: rotate(90deg);}
+}
+
+.footer {
+    width: 120em;
+    position: absolute;
+    bottom: -.2em;
+    left: -.2em;
+}
+
+.hmif {
+    position: absolute;
+    width: 2em;
+    padding-left: 2em;
+    bottom: 1em;
+    margin-top: -3.5em;
+}
+
+.if {
+    position: absolute;
+    width: 3em;
+    padding-left: 6em;
+    bottom: 1em;
+}
+
+.usk {
+    position: absolute;
+    width: 2em;
+    padding-left: 11em;
+    bottom: 1em;
+}
+
+.vote {
+    overflow: hidden;
 }

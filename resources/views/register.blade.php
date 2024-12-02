@@ -15,42 +15,23 @@
     <div class="form">
         <div class="img_form">
             <div class="form_lg">
-                <img src="/img/stars.png" alt="" class="stars">
-                <h2 class="text_rg">REGISTER</h2>
-                <!-- Form Register -->
-                <form action="{{ route('register.submit') }}" method="POST">
-                    @csrf
-                    <!-- Input NPM -->
-                    <input type="text" placeholder="Masukkan NPM" name="npm" id="npm" required class="inp" value="{{ old('npm') }}">
-                    @error('npm')
-                        <p style="color: red;">{{ $message }}</p>
-                    @enderror
-                    <br>
-
-                    <!-- Input Nama -->
-                    <input type="text" placeholder="Masukkan Nama" name="name" id="name" required class="inp" value="{{ old('nama') }}">
-                    @error('name')
-                        <p style="color: red;">{{ $message }}</p>
-                    @enderror
-                    <br>
-
-                    <!-- Input Password -->
-                    <input type="password" placeholder="Masukkan Password" name="password" id="password" required class="inp">
-                    @error('password')
-                        <p style="color: red;">{{ $message }}</p>
-                    @enderror
-                    
-                    <a href="{{ route('login.tampil') }}" class="link link2">
-                        <p>Udah punya akun? Langsung Log In</p>
-                    </a>
-                    <br>
-                    <button type="submit" class="submit">Sign Up</button>
-                </form>
+            <img src="/img/stars.png" alt="" class="stars">
+            <h2 class="text_rg">REGISTER</h2>
+            <input type="text" placeholder="Masukkan NPM" name="id_nim" id="id_nim" required class="inp inp1">
+            <br>
+            <input type="text" placeholder="Masukkan Nama" name="password" id="password" required class="inp inp2">
+            <br>
+            <input type="password" placeholder="Masukkan Password" name="password" id="password" required class="inp inp3">
+            <a href="login" class="link link2">
+                <p>Udah punya akun? Langsung Log In</p>
+            </a>
+            <br>
+            <button class="submit">Sign Up</button>
             </div>    
         </div>
     </div>
     <div>
-        <img src="/img/footer.png" alt="" class="footer_lg">
+        <img src="/img/footer.png" alt="" class="footer">
     </div>
     <div class="footer_icon">
         <img src="/img/hmif.png" alt="" class="hmif">

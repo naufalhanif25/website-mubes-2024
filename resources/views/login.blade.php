@@ -15,29 +15,21 @@
     <div class="form">
         <div class="img_form">
             <div class="form_lg">
-                <img src="/img/stars.png" alt="" class="stars">
-                <h2 class="text_lg">LOG IN</h2>
-                <form action="{{ route('login.submit') }}" method="POST">
-                    @csrf
-                    <input type="text" placeholder="Masukkan NPM" name="npm" id="npm" required class="inp">
-                    <br>
-                    <input type="password" placeholder="Masukkan Password" name="password" id="password" required class="inp">
-                    <a href="register" class="link">
-                        <p>Belum punya akun? Sign Up dulu</p>
-                    </a>
-                    <br>
-                    <button class="submit">Login</button>
-                </form>
-
-                @if(session('gagal'))
-                   <p class="text-danger">{{ session('gagal') }}</p> 
-                @endif
-                
+            <img src="/img/stars.png" alt="" class="stars">
+            <h2 class="text_lg">LOG IN</h2>
+            <input type="text" placeholder="Masukkan Username" name="username" id="username" required class="inp inp4">
+            <br>
+            <input type="password" placeholder="Masukkan Password" name="password" id="password" required class="inp inp5">
+            <a href="register" class="link link3">
+                <p>Belum punya akun? Sign Up dulu</p>
+            </a>
+            <br>
+            <button class="submit">Login</button>
             </div>    
         </div>
     </div>
     <div>
-        <img src="/img/footer.png" alt="" class="footer_lg">
+        <img src="/img/footer.png" alt="" class="footer">
     </div>
     <div class="footer_icon">
         <img src="/img/hmif.png" alt="" class="hmif">
