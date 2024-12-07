@@ -19,15 +19,40 @@
             <h2 class="text_lg">LOG IN</h2>
             <form action="{{ route('login.submit') }}" method="POST">
                 @csrf
-                <input type="text" placeholder="Masukkan NPM" name="npm" id="npm" required class="inp inp4">
+                <!-- Input untuk NPM -->
+                <label for="npm">NPM:</label>
+                <input 
+                    type="text" 
+                    name="npm" 
+                    id="npm" 
+                    value="{{ old('npm') }}" 
+                    placeholder="Masukkan NPM" 
+                    required class="inp inp4"
+                >
+                @error('npm')
+                    <p class="text-danger">{{ $message }}</p>
+                @enderror
                 <br>
-                <input type="password" placeholder="Masukkan Password" name="password" id="password" required class="inp inp5">
+                <!-- Input untuk Password -->
+                <label for="password">Password:</label>
+                <input 
+                    type="password" 
+                    name="password" 
+                    id="password" 
+                    placeholder="Masukkan Password" 
+                    required class="inp inp5"
+                >
+                @error('password')
+                    <p class="text-danger">{{ $message }}</p>
+                @enderror
                 <a href="register" class="link link3">
-                    <p>Belum punya akun? Sign Up dulu</p>
+                   <p>Belum punya akun? Sign Up dulu</p>
                 </a>
-                <br>
+                <br>		
+                <!-- Submit Button -->
                 <button class="submit">Login</button>
             </form>
+            
             @if (session('gagal'))
                 <p class="text-danger">{{ session('gagal') }}</p>
             @endif

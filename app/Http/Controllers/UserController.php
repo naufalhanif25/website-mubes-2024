@@ -44,14 +44,23 @@ class UserController extends Controller
         return view('login');
     }
 
-    public function SubmitLogin(Request $request){
-        $data = $request->only('npm','password');
+    public function SubmitLogin(Request $request)
+{
+    $request->validate([
+        'npm' => 'required|numeric',
+        'password' => 'required|string|min:8',
+    ]);
 
-        if (Auth::attempt($data)){
-            $request->session()->regenerate();
-            return redirect()->route('vote.Tampil');
-        } else {
-            return redirect()->back()->with('gagal','email atau password salah');
-        }
+    $credentials = $request->only('npm', 'password');
+
+    if (Auth::attempt($credentials)) {
+        // Regenerasi sesi untuk keamanan
+        $request->session()->regenerate();
+        return redirect()->route('home');
     }
+
+    // Jika login gagal
+    return redirect()->back()->with('gagal', 'NPM atau password salah')->withInput();
+}
+
 }
