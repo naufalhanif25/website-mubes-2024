@@ -23,6 +23,11 @@ Route::get('/register', function () {
     return view('register');
 });
 
-route:: get('/register',[UserController::class, 'index'])->name('register.index');
-route:: get('/login',[UserController::class, 'login'])->name('login');
-route:: post('/register',[UserController::class, 'store'])->name('register.store');
+route:: get('/register',[UserController::class, 'TampilRegister'])->name('register.Tampil');
+route:: post('/register',[UserController::class, 'SubmitRegistrasi'])->name('register.submit');
+
+route:: get('/home',[UserController::class, 'TampilHome'])->name('home.Tampil');
+route:: get('/vote',[UserController::class, 'TampilVote'])->name('vote.Tampil');
+
+route:: get('/login',[UserController::class, 'TampilLogin'])->name('login.tampil');
+route:: post('/login',[UserController::class, 'SubmitLogin'])->name('login.submit');

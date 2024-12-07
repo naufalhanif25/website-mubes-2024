@@ -32,9 +32,12 @@
         <a href="login" class="a">
             <button class="button button2">Login</button>
         </a>
+        <a href="vote" class="a">
+            <button class="button button3">Lihat Kandidat</button>
+        </a>
     </div>
     <div>
-        <img src="/img/footer.png" alt="" class="footer_lg">
+        <img src="/img/footer.png" alt="" class="footer">
     </div>
     <div class="footer_icon">
         <img src="/img/hmif.png" alt="" class="hmif">
