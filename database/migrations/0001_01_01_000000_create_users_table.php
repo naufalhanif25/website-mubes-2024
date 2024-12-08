@@ -28,13 +28,6 @@ return new class extends Migration
             $table->integer('last_activity')->index();
         });
 
-        Schema::create('candidates', function (Blueprint $table){
-            $table->string('npm')->primary();
-            $table->string('name');
-            $table->string('password');
-            $table->string('photo')->nullable();
-            $table->integer('votes')->default(0);
-        });
     }
 
     /**
@@ -44,6 +37,5 @@ return new class extends Migration
     {
         Schema::dropIfExists('users');
         Schema::dropIfExists('sessions');
-        Schema::dropIfExists('candidates');
     }
 };
