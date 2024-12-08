@@ -1,0 +1,98 @@
+<div className="VotePage w-[1440px] h-[802px] relative bg-white">
+  <div className="VotingText w-[200px] h-[100px] left-[626px] top-[76px] absolute justify-start items-center gap-2 inline-flex">
+    <div className="V text-center text-black text-5xl font-normal font-['Upheaval TT (BRK)'] leading-[100px] tracking-[3.84px]">V</div>
+    <div className="Pipe w-1 h-9 bg-[#f1c40f]" />
+  </div>
+  <div className="Countdown w-40 h-[42px] left-[640px] top-[155px] absolute">
+    <div className="Rectangle w-40 h-[42px] left-0 top-0 absolute bg-white rounded-xl shadow border-2 border-[#e74c3c]" />
+    <div className="0010 left-[48px] top-[10px] absolute text-center text-[#e74c3c] text-sm font-normal font-['EASVHS'] leading-snug tracking-wide">00:00:10</div>
+  </div>
+  <div className="Candidate w-[992px] h-80 left-[224px] top-[239px] absolute">
+    <div className="Candidate1 w-[480px] h-80 left-0 top-0 absolute">
+      <div className="Candidate1 w-60 h-80 left-[240px] top-0 absolute flex-col justify-center items-center inline-flex">
+        <div className="Candidate1 w-60 h-80 relative">
+          <img className="Rectangle w-60 h-80 left-0 top-0 absolute rounded-tr-3xl rounded-br-3xl" src="https://via.placeholder.com/240x320" />
+          <div className="SamplePhotoC1 w-60 h-80 left-0 top-0 absolute flex-col justify-center items-center inline-flex">
+            <img className="SamplePhotoC1 w-60 h-80" src="https://via.placeholder.com/240x320" />
+          </div>
+        </div>
+      </div>
+      <div className="VisionMissionCandidate1 w-60 h-80 left-0 top-0 absolute flex-col justify-start items-start inline-flex">
+        <div className="Rectangle w-60 h-80 bg-gradient-to-bl from-[#f1c40f] to-[#e67e22] rounded-tl-3xl rounded-bl-3xl" />
+        <div className="VisiMenjadikanHimpunanMahasiswaInformatikaSebagaiWadahPengEmbanganPotensiDanInovasiBagiSeluruhMahasiswaSertaMenciptakanLingkunganYangKolaboratifInklusifDanBerdayaSaingDiBidangTeknologiInformasi w-48 text-justify"><span style="text-black text-sm font-normal font-['EASVHS'] leading-snug">Visi<br/></span><span style="text-[#2c3e50]/60 text-xs font-normal font-['EASVHS'] leading-tight">Menjadikan Himpunan Mahasiswa Informatika sebagai wadah peng-embangan potensi dan inovasi bagi seluruh mahasiswa, serta menciptakan lingkungan yang kolaboratif, inklusif, dan berdaya saing di bidang teknologi informasi.</span></div>
+        <div className="BackArrow w-6 h-6 p-1 origin-top-left rotate-180 justify-center items-center inline-flex" />
+      </div>
+    </div>
+    <div className="Candidate2 w-[480px] h-80 left-[512px] top-0 absolute">
+      <div className="Candidate2 w-60 h-80 left-[240px] top-0 absolute flex-col justify-center items-center inline-flex">
+        <div className="Candidate2 w-60 h-80 relative">
+          <img className="Rectangle w-60 h-80 left-0 top-0 absolute rounded-tr-3xl rounded-br-3xl" src="https://via.placeholder.com/240x320" />
+          <div className="SamplePhotoC2 w-60 h-80 left-0 top-0 absolute flex-col justify-center items-center inline-flex">
+            <img className="SamplePhotoC2 w-60 h-80" src="https://via.placeholder.com/240x320" />
+          </div>
+        </div>
+      </div>
+      <div className="VisionMissionCandidate2 w-60 h-80 left-0 top-0 absolute flex-col justify-start items-start inline-flex">
+        <div className="Rectangle w-60 h-80 bg-gradient-to-bl from-[#f1c40f] to-[#e67e22] rounded-tl-3xl rounded-bl-3xl" />
+        <div className="VisiMenjadikanHimpunanMahasiswaInformatikaSebagaiPusatPengEmbanganDiriInovasiDanKolaborasiDiBidangTeknologiInformasiYangUnggulDanBerdayaSaing w-48 text-justify"><span style="text-black text-sm font-normal font-['EASVHS'] leading-snug">Visi<br/></span><span style="text-[#2c3e50]/60 text-xs font-normal font-['EASVHS'] leading-tight">Menjadikan Himpunan Mahasiswa Informatika sebagai pusat peng-embangan diri, inovasi, dan kolaborasi di bidang teknologi informasi yang unggul dan berdaya saing.</span></div>
+        <div className="BackArrow w-6 h-6 p-1 origin-top-left rotate-180 justify-center items-center inline-flex" />
+      </div>
+    </div>
+  </div>
+  <div className="Button w-[92px] h-[42px] left-[418px] top-[583px] absolute">
+    <div className="Rectangle w-[92px] h-[42px] left-0 top-0 absolute bg-[#f1c40f] rounded-lg" />
+    <div className="Vote left-[30px] top-[14px] absolute text-white text-sm font-normal font-['EASVHS']">Vote</div>
+  </div>
+  <div className="VoteCount w-[52px] left-[248px] top-[519px] absolute">
+    <div className="Vote w-6 h-6 px-[3px] pt-[1.67px] pb-0.5 left-0 top-0 absolute justify-center items-center inline-flex" />
+    <div className=" left-[30px] top-[5px] absolute text-[#2ecc71]/60 text-sm font-normal font-['EASVHS']">120</div>
+  </div>
+  <div className="VoteCount w-[52px] left-[760px] top-[519px] absolute">
+    <div className="Vote w-6 h-6 px-[3px] pt-[1.67px] pb-0.5 left-0 top-0 absolute justify-center items-center inline-flex" />
+    <div className=" left-[30px] top-[5px] absolute text-[#2ecc71]/60 text-sm font-normal font-['EASVHS']">160</div>
+  </div>
+  <div className="Button w-[92px] h-[42px] left-[930px] top-[583px] absolute">
+    <div className="Rectangle w-[92px] h-[42px] left-0 top-0 absolute bg-[#f1c40f] rounded-lg shadow" />
+    <div className="Vote left-[30px] top-[14px] absolute text-white text-sm font-normal font-['EASVHS']">Vote</div>
+  </div>
+  <div className="Profile w-[156px] h-[82px] pb-10 left-[1252px] top-[32px] absolute justify-center items-center inline-flex">
+    <div className="Profile relative">
+      <div className="NaufalHanif left-[50px] top-[13px] absolute text-center text-black text-base font-normal font-['EASVHS'] tracking-wider">Naufal Hanif</div>
+      <div className="Profile w-[42px] h-[42px] p-[3.50px] left-0 top-0 absolute justify-center items-center inline-flex">
+        <div className="Group w-[35px] h-[35px] relative">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div className="MenuVote w-[120px] h-[106px] left-[16px] top-[16px] absolute">
+    <div className="Rectangle w-[120px] h-[106px] left-0 top-0 absolute bg-black/0 rounded-xl" />
+    <div className="Homepage left-[24px] top-[68px] absolute text-white/0 text-sm font-normal font-['EASVHS']">Homepage</div>
+    <div className="Menu w-9 h-9 px-[4.50px] py-[9px] left-[16px] top-[16px] absolute justify-center items-center inline-flex" />
+  </div>
+  <div className="Footer w-[1440px] h-16 left-0 top-[738px] absolute">
+    <div className="Footer w-[1440px] h-16 left-0 top-0 absolute justify-center items-center inline-flex">
+      <img className="Footer w-[1440px] h-16" src="https://via.placeholder.com/1440x64" />
+    </div>
+    <div className="Logo w-[108px] h-6 left-[32px] top-[27px] absolute">
+      <img className="LogoIf w-[28.21px] h-[18px] left-[40px] top-[5px] absolute" src="https://via.placeholder.com/28x18" />
+      <img className="HmifLogo w-6 h-6 left-0 top-0 absolute" src="https://via.placeholder.com/24x24" />
+      <img className="UskLogo w-6 h-6 left-[84px] top-[-0px] absolute" src="https://via.placeholder.com/24x24" />
+    </div>
+    <div className="CopyrightHimpunanMahasiswaInformatika2024AllRightsReserved left-[523px] top-[33px] absolute text-[#f1c40f] text-xs font-normal font-['EASVHS']">Copyright @ Himpunan Mahasiswa Informatika 2024. All Rights Reserved</div>
+    <div className="SocialMedia w-[104px] h-[21.94px] left-[1304px] top-[28px] absolute">
+      <div className="Instagram w-6 h-[21.94px] px-0.5 py-[1.83px] left-[80px] top-0 absolute justify-center items-center inline-flex" />
+      <div className="Tiktok w-6 h-[21.94px] px-[4.16px] py-[2.74px] left-[40px] top-0 absolute justify-center items-center inline-flex" />
+      <div className="X w-6 h-[21.94px] px-[2.11px] py-[2.80px] left-0 top-0 absolute justify-center items-center inline-flex" />
+    </div>
+  </div>
+  <div className="Medal w-[39.60px] h-[39.60px] left-[1164px] top-[251px] absolute shadow shadow-inner">
+    <div className="Rectangle w-7 h-7 left-0 top-[19.80px] absolute origin-top-left -rotate-45 bg-[#f1c40f]/75 rounded-sm" />
+    <div className="Rectangle w-[26px] h-[26px] left-[7px] top-[7px] absolute bg-[#f39c12]/75 rounded-sm" />
+    <div className="Ellipse w-8 h-8 left-[4px] top-[4px] absolute bg-[#f1c40f]/80 rounded-full border-2 border-[#f39c12]/80" />
+    <img className="HmifLogo w-6 h-6 left-[8px] top-[7px] absolute" src="https://via.placeholder.com/24x24" />
+  </div>
+  <div className="AddCandidate w-12 h-12 left-[1360px] top-[690px] absolute">
+    <div className="Ellipse w-12 h-12 left-0 top-0 absolute bg-white rounded-full shadow border-2 border-[#f1c40f]" />
+    <div className="Plus w-8 h-8 px-[6.67px] pt-[6.66px] pb-[6.67px] left-[8px] top-[8px] absolute justify-center items-center inline-flex" />
+  </div>
+</div>

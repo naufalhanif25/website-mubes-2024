@@ -1,0 +1,87 @@
+<div className="WelcomePage w-[1440px] h-[1578px] relative bg-white">
+  <img className="WelcomePageBg w-[1440px] h-[810px] left-0 top-0 absolute" src="https://via.placeholder.com/1440x810" />
+  <img className="WelcomePageBg w-[1440px] h-[810px] left-0 top-0 absolute blur-sm" src="https://via.placeholder.com/1440x810" />
+  <div className="Clock w-[720px] h-[720px] left-[360px] top-[380px] absolute justify-center items-center inline-flex">
+    <div className="Clcok w-[720px] h-[720px] relative flex-col justify-start items-start flex">
+      <img className="ClockRevPartBin w-[720px] h-[720px]" src="https://via.placeholder.com/720x720" />
+      <img className="ClockRevPartOuter w-[720px] h-[720px] origin-top-left -rotate-180" src="https://via.placeholder.com/720x720" />
+      <img className="ClockRevPartInner w-[720px] h-[720px] origin-top-left rotate-180" src="https://via.placeholder.com/720x720" />
+    </div>
+  </div>
+  <div className="Rectangle w-[1480px] h-[768px] left-[-20px] top-[810px] absolute bg-white shadow-inner" />
+  <div className="Footer w-[1440px] h-16 left-0 top-[1514px] absolute">
+    <div className="Footer w-[1440px] h-16 left-0 top-0 absolute justify-center items-center inline-flex">
+      <img className="Footer w-[1440px] h-16" src="https://via.placeholder.com/1440x64" />
+    </div>
+    <div className="Logo w-[108px] h-6 left-[32px] top-[27px] absolute">
+      <img className="LogoIf w-[28.21px] h-[18px] left-[40px] top-[5px] absolute" src="https://via.placeholder.com/28x18" />
+      <img className="HmifLogo w-6 h-6 left-0 top-0 absolute" src="https://via.placeholder.com/24x24" />
+      <img className="UskLogo w-6 h-6 left-[84px] top-[-0px] absolute" src="https://via.placeholder.com/24x24" />
+    </div>
+    <div className="CopyrightHimpunanMahasiswaInformatika2024AllRightsReserved left-[523px] top-[33px] absolute text-[#f1c40f] text-xs font-normal font-['EASVHS']">Copyright @ Himpunan Mahasiswa Informatika 2024. All Rights Reserved</div>
+    <div className="SocialMedia w-[104px] h-[21.94px] left-[1304px] top-[28px] absolute">
+      <div className="Instagram w-6 h-[21.94px] px-0.5 py-[1.83px] left-[80px] top-0 absolute justify-center items-center inline-flex" />
+      <div className="Tiktok w-6 h-[21.94px] px-[4.16px] py-[2.74px] left-[40px] top-0 absolute justify-center items-center inline-flex" />
+      <div className="X w-6 h-[21.94px] px-[2.11px] py-[2.80px] left-0 top-0 absolute justify-center items-center inline-flex" />
+    </div>
+  </div>
+  <div className="WelcomeText w-[600px] h-[100px] left-[426px] top-[858px] absolute justify-start items-center gap-2 inline-flex">
+    <div className="S text-center text-black text-[64px] font-normal font-['Upheaval TT (BRK)'] leading-[100px] tracking-[5.12px]">S</div>
+    <div className="Pipe w-1 h-12 bg-[#f1c40f]" />
+  </div>
+  <div className="LogIn left-[1247px] top-[32px] absolute">
+    <div className="MasukLogIn left-[50px] top-[13px] absolute text-white text-base font-normal font-['EASVHS'] tracking-wider">Masuk/Log in</div>
+    <div className="Profile w-[42px] h-[42px] p-[3.50px] left-0 top-0 absolute justify-center items-center inline-flex">
+      <div className="Group w-[35px] h-[35px] relative">
+      </div>
+    </div>
+  </div>
+  <div className="FloatingBoy w-[460px] h-[460px] left-[178px] top-[990px] absolute">
+    <div className="Rectangle w-[460px] h-[460px] left-0 top-0 absolute bg-gradient-to-bl from-[#f1c40f] to-[#e67e22] rounded-3xl" />
+    <div className="Ellipse w-[120px] h-[120px] left-[170px] top-[170px] absolute bg-[#f1c40f]/20 rounded-full blur-[36px]" />
+    <div className="Gear w-40 h-40 left-[58px] top-[266px] absolute blur-[2px] justify-center items-center inline-flex">
+      <img className="Gear w-40 h-40 blur-[2px]" src="https://via.placeholder.com/160x160" />
+    </div>
+    <div className="Gear w-[120px] h-[120px] left-[201px] top-[36px] absolute blur-sm justify-center items-center inline-flex">
+      <img className="Gear w-[120px] h-[120px] blur-[2px]" src="https://via.placeholder.com/120x120" />
+    </div>
+    <div className="ClockRotate w-[452.55px] h-[452.55px] pl-[66px] pr-[66.55px] py-[66.27px] left-[4px] top-[4px] absolute rounded-3xl justify-center items-center inline-flex">
+      <img className="ClockPartOuter w-80 h-80" src="https://via.placeholder.com/320x320" />
+    </div>
+    <div className="FloatingBoy w-[452.55px] h-[452.55px] left-[4px] top-[4px] absolute rounded-3xl justify-center items-center inline-flex">
+      <img className="FloatingBoy w-80 h-80 origin-top-left -rotate-45" src="https://via.placeholder.com/320x320" />
+    </div>
+    <div className="Stars w-[206px] h-72 left-[184px] top-[102px] absolute">
+      <div className="Star w-12 h-12 left-[158px] top-[12px] absolute justify-center items-center inline-flex">
+        <img className="Star w-12 h-12 origin-top-left -rotate-45 shadow shadow-inner" src="https://via.placeholder.com/48x48" />
+      </div>
+      <div className="Star w-6 h-6 left-[124px] top-0 absolute justify-center items-center inline-flex">
+        <img className="Star w-6 h-6 origin-top-left -rotate-45 shadow shadow-inner" src="https://via.placeholder.com/24x24" />
+      </div>
+      <div className="Star w-6 h-6 left-[5px] top-[264px] absolute justify-center items-center inline-flex">
+        <img className="Star w-6 h-6 origin-top-left -rotate-45 shadow shadow-inner" src="https://via.placeholder.com/24x24" />
+      </div>
+      <div className="Star w-6 h-6 left-0 top-[152px] absolute justify-center items-center inline-flex">
+        <img className="Star w-6 h-6 origin-top-left -rotate-45 shadow shadow-inner" src="https://via.placeholder.com/24x24" />
+      </div>
+    </div>
+  </div>
+  <div className="Button w-[161px] h-12 left-[742px] top-[1399px] absolute">
+    <div className="Rectangle w-[161px] h-12 left-0 top-0 absolute bg-[#f1c40f] rounded-lg shadow" />
+    <div className="VoteSekarang left-[16px] top-[17px] absolute text-white text-sm font-normal font-['EASVHS']">Vote Sekarang</div>
+    <div className="Vote w-6 h-6 px-[3px] pt-[1.67px] pb-0.5 left-[121px] top-[12px] absolute justify-center items-center inline-flex" />
+  </div>
+  <div className="PocketClock w-[796px] h-[796px] left-[322px] top-[-464px] absolute opacity-90 shadow blur-sm flex-col justify-center items-center inline-flex">
+    <div className="PocketClock origin-top-left -rotate-90 w-40 h-[796px] relative">
+      <img className="PocketClock w-40 h-40 left-[636px] top-0 absolute origin-top-left -rotate-90" src="https://via.placeholder.com/160x160" />
+      <div className="Rectangle w-1 h-[640px] left-0 top-[-78px] absolute origin-top-left -rotate-90 bg-[#f1c40f] rounded-lg shadow-inner" />
+    </div>
+  </div>
+  <div className="Mubes2024 left-[514px] top-[160px] absolute text-center"><span style="text-white text-[120px] font-normal font-['Upheaval TT (BRK)'] leading-[100px] tracking-[9.60px]">MUBES<br/></span><span style="text-[#f1c40f] text-[120px] font-normal font-['Upheaval TT (BRK)'] leading-[100px] tracking-[9.60px]">2024</span></div>
+  <div className="DeskripsiWebsiteEVoteMubesInformatika2024AdalahWebsitePemilihanKetuaHimpunanMahasiswaInformatikaHmifPeriode20242025DalamRangkaMusyawarahBesarMubesHimpunanMahasiswaInformatikaKeViiBayangkanKamuAdalahSeorangPenjelajahWaktuTimeTravelerPergilahKeMasaDepanDenganMenggunakanPortalAtauMesinWaktuLihatlahBagaimanaPerkembanganInformatikaDiMasaDepanApaYangKamuLihatDiMasaDepanAdalahHasilDariPilihanmuHariIniMakaDariItuBijaklahGunakanHakPilihmuDenganSebaikBaiknyaTentukanPilihanmuTerlebihDahuluSebelumMelakukanVotingJikaSudahKlikTombolVoteSekarangDiBawahIni w-[520px] left-[742px] top-[990px] absolute text-justify"><span style="text-black text-[32px] font-normal font-['EASVHS'] leading-[51.20px] tracking-[2.56px]">DESKRIPSI<br/></span><span style="text-black text-base font-normal font-['EASVHS'] leading-relaxed tracking-wider"><br/></span><span style="text-black text-sm font-normal font-['EASVHS'] leading-snug tracking-wide">Website E-Vote MUBES Informatika 2024 adalah website pemilihan ketua Himpunan Mahasiswa Informatika (HMIF) periode 2024-2025 dalam rangka Musyawarah Besar (MUBES) Himpunan Mahasiswa Informatika ke VII. <br/><br/>Bayangkan kamu adalah seorang penjelajah waktu (time traveler), pergilah ke masa depan dengan menggunakan portal atau mesin waktu, lihatlah bagaimana perkembangan Informatika di masa depan. Apa yang kamu lihat di masa depan adalah hasil dari pilihanmu hari ini. Maka dari itu, bijaklah. Gunakan hak pilihmu dengan sebaik-baiknya.<br/><br/>Tentukan pilihanmu terlebih dahulu sebelum melakukan voting. Jika sudah, klik tombol “Vote Sekarang” di bawah ini.</span></div>
+  <div className="MenuWelcome w-[120px] h-[106px] left-[16px] top-[16px] absolute">
+    <div className="Rectangle w-[120px] h-[106px] left-0 top-0 absolute bg-black/0 rounded-xl" />
+    <div className="Homepage left-[24px] top-[68px] absolute text-white/0 text-sm font-normal font-['EASVHS']">Homepage</div>
+    <div className="Menu w-9 h-9 px-[4.50px] py-[9px] left-[16px] top-[16px] absolute justify-center items-center inline-flex" />
+  </div>
+</div>
