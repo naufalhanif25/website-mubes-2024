@@ -31,3 +31,5 @@ route:: get('/vote',[UserController::class, 'TampilVote'])->name('vote.Tampil');
 
 route:: get('/login',[UserController::class, 'TampilLogin'])->name('login.tampil');
 route:: post('/login',[UserController::class, 'SubmitLogin'])->name('login.submit');
+
+route:: get('/vote',[UserController::class,'TampilVote'])->name('vote.Tampil');
