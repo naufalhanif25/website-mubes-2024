@@ -15,7 +15,7 @@ return new class extends Migration
             $table->string('npm')->primary();
             $table->string('nama', 100);
             $table->string('photo');
-            $table->integer('votes');
+            $table->integer('votes')->default(0);
             $table->timestamps();
         });
     }
