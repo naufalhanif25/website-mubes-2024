@@ -7,8 +7,19 @@ use Illuminate\Database\Eloquent\Model;
 
 class Candidate extends Model
 {
-    use HasFactory;
-
     protected $table = 'candidate';
-    protected $fillable = ['npm', 'nama', 'photo', 'votes'];
+
+    //protected $primaryKey = 'npm';
+
+    //public $incrementing = false;
+
+    //protected $keyType = 'string';
+    protected $fillable = [
+        //'npm',
+        'nama',
+        'photo',
+        'votes',
+    ];
+
+    public $timestamps = true;
 }
