@@ -23,4 +23,4 @@ Himpunan Mahasiswa Informatika ke VII.
 
 **Database:** MySQL
 
-**Website URL:**
+**Website URL:** [Website MUBES 2024](mubeshmif.my.id) (Active until January 17, 2025)
