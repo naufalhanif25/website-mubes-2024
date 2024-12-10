@@ -16,16 +16,16 @@ class UserController extends Controller
     {
         // Validasi input
         $request->validate([
-            'npm' => 'required|string|min:12|max:13|unique:users,npm', // Sesuaikan dengan nama tabel Anda
+            'npm' => ['required','string','min:13','max:13','unique:users,npm','regex:/^.{2}(08107010).{3}$/'], // Sesuaikan dengan nama tabel Anda
             'name' => 'required|string|max:100',
-            'password' => 'required|string|min:8',
+            'password' => 'required|string|min:6',
         ]);
 
         // Simpan data ke database
         User::create([
             'npm' => $request->npm,
             'name' => $request->name,
-            'password' =>$request->password,
+            'password' =>bcrypt($request->password),
         ]);
 
         // Redirect ke halaman login dengan pesan sukses
@@ -44,14 +44,23 @@ class UserController extends Controller
         return view('login');
     }
 
-    public function SubmitLogin(Request $request){
-        $data = $request->only('npm','password');
+    public function SubmitLogin(Request $request)
+{
+    $request->validate([
+        'npm' => 'required|numeric',
+        'password' => 'required|string|min:6',
+    ]);
 
-        if (Auth::attempt($data)){
-            $request->session()->regenerate();
-            return redirect()->route('vote.Tampil');
-        } else {
-            return redirect()->back()->with('gagal','email atau password salah');
-        }
+    $credentials = $request->only('npm', 'password');
+
+    if (Auth::attempt($credentials)) {
+        // Regenerasi sesi untuk keamanan
+        $request->session()->regenerate();
+        return redirect()->route('vote.Tampil');
     }
+
+    // Jika login gagal
+    return redirect()->back()->with('gagal', 'NPM atau password salah')->withInput();
+}
+
 }
