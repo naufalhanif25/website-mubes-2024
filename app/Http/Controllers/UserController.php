@@ -16,16 +16,16 @@ class UserController extends Controller
     {
         // Validasi input
         $request->validate([
-            'npm' => 'required|string|min:12|max:13|unique:users,npm', // Sesuaikan dengan nama tabel Anda
+            'npm' => ['required','string','min:13','max:13','unique:users,npm','regex:/^.{2}(08107010).{3}$/'], // Sesuaikan dengan nama tabel Anda
             'name' => 'required|string|max:100',
-            'password' => 'required|string|min:8',
+            'password' => 'required|string|min:6',
         ]);
 
         // Simpan data ke database
         User::create([
             'npm' => $request->npm,
             'name' => $request->name,
-            'password' =>$request->password,
+            'password' =>bcrypt($request->password),
         ]);
 
         // Redirect ke halaman login dengan pesan sukses
@@ -48,7 +48,7 @@ class UserController extends Controller
 {
     $request->validate([
         'npm' => 'required|numeric',
-        'password' => 'required|string|min:8',
+        'password' => 'required|string|min:6',
     ]);
 
     $credentials = $request->only('npm', 'password');
@@ -56,7 +56,7 @@ class UserController extends Controller
     if (Auth::attempt($credentials)) {
         // Regenerasi sesi untuk keamanan
         $request->session()->regenerate();
-        return redirect()->route('home');
+        return redirect()->route('vote.Tampil');
     }
 
     // Jika login gagal
