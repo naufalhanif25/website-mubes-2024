@@ -1,5 +1,7 @@
 <?php
 
+App\Providers\AgentServiceProvider::class;
+
 return [
 
     /*
