@@ -17,9 +17,11 @@ Himpunan Mahasiswa Informatika ke VII.
 
 **License:** *assets -> fonts -> about.txt*
 
-**Frameworks:**
-1. Laravel
-2. TailwindCSS
+**Frameworks and Languages:**
+1. Laravel (PHP)
+2. Tailwind
+3. Bootstrap
+4. JavaScript
 
 **Database:** MySQL
 
