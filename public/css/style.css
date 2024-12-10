@@ -8,106 +8,58 @@
     src: url(easvhs.ttf);
 }
 
+*{
+    box-sizing: border-box;
+}
+
 .main{
+    justify-content: center;
+    align-items: center;
     font-family: upheaval;
     background-color: white;
-    overflow: hidden;   
+    position: relative;  
+    overflow: hidden;
 }
 
 .typewriter-animation {
     color: black;
+    display: flex;
     font-size: 2.8em;
     overflow: hidden;
-    border-right: .12em solid #fbc531;
+    border-right: .1em solid #fbc531;
+    height: 64px;
     white-space: nowrap;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -1em;
     letter-spacing: .05em;
-    animation: typing1 5s steps(30, end) forwards, blink-caret .9s infinite;
     text-align: center;
+    align-items: center;
 }
 
 @keyframes typing1 {
     from { width: 0 }
-    to { width: 43% }
+    to { width: 46% }
+}
+
+.round-lottie {
+    border-radius: 25px;
+    overflow: hidden;
 }
 
 .box {
-    position: absolute;
-    width: 32em;
-    height: 32em;
-    top: 15em;
-    left: 10em;
+    overflow: hidden;
+    position: relative;
+    width: 20em;
+    height: 20em;
+    margin-top: 8%;
+    margin-left: 16%;
     background-color: #faecb0;
-    box-shadow: 15px 15px black;
+    box-shadow: 12px 12px black;
     border-radius: 25px;
     border-style: solid;
     border-color: black;
     z-index: 1;
-}
-
-.gear1 {
-    display: flex;
-    width: 28%;
-    margin-left: 15em;
-    margin-top: -25em;
-    image-rendering: pixelated;
-    animation: gear1 8s infinite;
-    z-index: 3;
-}
-
-@keyframes gear1 {
-    100% {transform: rotate(-360deg);}
-}
-
-.gear2 {
-    display: flex;
-    width: 35%;
-    margin-top: 7em;
-    margin-left: 3em;
-    image-rendering: pixelated;
-    animation: gear2 8s infinite;
-}
-
-@keyframes gear2 {
-    100% {transform: rotate(360deg);}
-}
-
-.boy {
-    display: flex;
-    position: relative;
-    width: 70%;
-    margin-top: 5em;
-    margin-left: 5em;
-    image-rendering: pixelated;
-    animation-name: floating;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    rotate: -48deg;
-    z-index: 4;
-}
-
-@keyframes floating {
-    from { transform: translate(0,  0px); }
-    65%  { transform: translate(0, 15px);
-           transform: rotate(-10deg); }
-    to   { transform: translate(0, -0px); } 
-}
-
-.clock {
-    width: 70%;
-    margin-top: -35em;
-    margin-left: 5em;
-    position: relative;
-    image-rendering: pixelated;
-    animation: clock 8s infinite;
-    z-index: 2;
-}
-
-@keyframes clock {
-    100% {transform: rotate(360deg);}
 }
 
 .text {
@@ -117,13 +69,14 @@
     font-family: easvhs;
     letter-spacing: .14em;
     font-size: 28px;
-    left: 30em;
-    top: 8em;
+    margin-right: 8%;
+    left: 50%;
+    top: 24%;
 }
 
 .p1 {
     display: flex;
-    font-size: 18px;
+    font-size: 12px;
     letter-spacing: .1em;
     line-height: 1.5;
     text-align: justify;
@@ -132,12 +85,13 @@
 }
 
 .p2 {
+    display: flex;
     position: absolute;
-    font-size: 18px;
+    font-size: 12px;
     letter-spacing: .1em;
     line-height: 1.5;
     text-align: justify;
-    top: 11em;
+    top: 12.8em;
     margin-right: 7em;
 }
 
@@ -147,41 +101,49 @@
 }
 
 .button {
-    display: flex;
-    position: absolute;
+    left: 49%;
+    position: relative;
     font-family: easvhs;
-    font-size: 20px;
+    font-size: 12px;
     background-color: #F1C40F;
     color: black;
-    padding: 20px 60px;
-    box-shadow: 8px 8px black;
+    padding: 8px 16px;
+    box-shadow: 6px 6px black;
     border-radius: 8px;
     border-style: solid;
     border-color: black;
     cursor: pointer;
-    top: 32em;
 }
 
 .button1 {
     position: absolute;
-    left: 42em;
-
+    top: 90%;
+    margin-left: 1%;
 }
 
 .button2 {
     position: absolute;
-    left: 56em;
+    top: 90%;
+    margin-left: 9.2%;
 }
 
 .button3 {
     position: absolute;
-    left: 69em;
+    top: 90%;
+    margin-left: 16%;
+}
+
+.button4 {
+    position: absolute;
+    top: 90%;
+    margin-left: 27%;
 }
 
 .button:hover {
     background-color: green;
     color: white;
-    box-shadow: 3px 3px black;
+    box-shadow: 2px 2px black;
+    transform: translateY(4px) translateX(4px);/
 }
 
 .button1:hover {
@@ -194,10 +156,14 @@
 
 .footer_t {
     position: absolute;
+    color: rgba(0, 0, 0, 50%);
+    top: 88vh;
+    margin: 0;
     font-family: easvhs;
+    font-size: 12px;
     text-align: center;
-    left: 45em;
-    bottom: 0.5em;
+    width: 100%;
+    height: 24px;
 }
 
 .login_pg {
@@ -205,60 +171,82 @@
 }
 
 .icon {
-    position: relative;
-    width: 3em;
-    margin-top: 2em;
-    margin-left: 2em;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 5vh;
+    left: 5vh;
 }
 
 .form {
-    width: 55em;
-    height: 30em;
+    display: flex;
+    min-width: 320px;
+    min-height: 360px;
+    max-width: 420px;
+    max-height: 420px;
+    height: auto;
+    width: auto;
     background-color: #faecb0;
-    border-radius: 30px;
-    margin: 5em auto;
-    box-shadow: 10px 10px black;
+    border-radius: 3vh;
+    box-shadow: 1vh 1vh black;
     border-style: solid;
     border-color: black;
+    z-index: 1;
 }
 
-.img_form{
-    width: 27.5em;
-    height: 30em;
-    background-color: black;
-    background-repeat: no-repeat;
-    border-radius: 30px 0 0 30px;
+.form-reg {
+    display: flex;
+    min-width: 320px;
+    min-height: 420px;
+    max-width: 460px;
+    max-height: 460px;
+    height: auto;
+    width: auto;
+    background-color: #faecb0;
+    border-radius: 3vh;
+    box-shadow: 1vh 1vh black;
+    border-style: solid;
+    border-color: black;
+    z-index: 1;
 }
 
 .form_lg {
-    position: relative;
+    position: absolute;
 }
 
 .stars {
-    width: 28em;
-    height: 30em;
+    display: flex;
+    position: absolute;
+    min-width: 360px;
+    min-height: 360px;
+    max-width: 420px;
+    max-height: 320px;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
 }
 
 .text_lg {
-    text-align: center;
-}
-
-.text_lg {
-    font-family: upheaval;
-    letter-spacing: .125em;
+    color: black;
+    display: flex;
+    position: relative;
     overflow: hidden;
-    border-right: .12em solid #fbc531;
-    font-size: 3em;
-    margin-left: 11.5em;
-    margin-top: -9em;
-    margin-bottom: 1em;
+    border-right: .2em solid #fbc531;
+    height: 32px;
     white-space: nowrap;
-    animation: typing 5s steps(10, end) forwards, blink-caret .9s infinite;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1em;
+    letter-spacing: .05em;
+    text-align: center;
+    align-items: center;
 }
 
 @keyframes typing {
     from { width: 0 }
-    to { width: 48% }
+    to { width: 100% }
 }
   
 @keyframes blink-caret {
@@ -267,65 +255,72 @@
     to {border-color: transparent;}
 }
 
-.inp {
-    position: absolute;
-    padding: 16px 100px;
-    border-radius: 8px;
-    background-color: beige;
-    left: 35em;
-    box-shadow: 5px 5px black;
+.inp-align {
+    text-align: center;
 }
 
-.inp2 {
-    top: 10em;
+.inp {
+    display: flex;
+    position: absolute;
+    padding: -2vh 6vw;
+    border-radius: 1vh;
+    background-color: beige;
+    height: 6vh;
+    width: 48vh;
+    left: 54vh;
+    box-shadow: .5vh .5vh black;
 }
 
 .inp1 {
-    top: 15em;
-}
-
-.inp3 {
-    top: 20em;
-}
-
-.inp4 {
-    top: 12em;
-}
-
-.inp5 {
-    top: 17em;
-}
-
-.inp::placeholder {
-    position: absolute;
-    font-family: easvhs;
-    font-size: 18px;
-    margin-left: -5em;
-    padding-left: -50px;
-    color: lightgrey;
-    justify-content: left;
-    outline: none;
+    top: 36%;
+    left: 37.4%;
+    justify-content: center;
     text-align: left;
 }
 
-.submit {
-    font-family: easvhs;
-    background-color: #F1C40F;
-    position: relative;
-    padding: 14px 50px;
-    top: 10em;
-    left: 45em;
-    border-radius: 8px;
-    box-shadow: 5px 5px black;
-    cursor: pointer;
+.inp2 {
+    top: 45%;
+    left: 37.4%;
+    justify-content: center;
+    text-align: left;
 }
 
-.submit:hover {
-    background-color: green;
-    color: white;
-    top: 10.2em;
-    left: 45.2em;
-    box-shadow: 2px 2px black;
+.inp3 {
+    top: 54%;
+    left: 37.4%;
+    justify-content: center;
+    text-align: left;
+}
+
+.inp4 {
+    top: 36%;
+    left: 37.4%;
+    justify-content: center;
+    text-align: left;
+}
+
+.inp5 {
+    top: 45.2%;
+    left: 37.4%;
+    justify-content: center;
+    text-align: left;
+}
+
+.inp::placeholder {
+    display: flex;
+    position: absolute;
+    font-family: easvhs;
+    font-size: 2vh;
+    color: lightgrey;
+    margin: 0;
+    left: 2vh;
+}
+
+.submit {
+    position: absolute;
+    justify-content: center;
+    left: 47.2%;
+    margin-left: 0%;
 }
 
 .text_rg {
@@ -348,32 +343,38 @@
 
 .link {
     font-family: easvhs;
-    font-size: .9em;
+    font-size: 1.5vh;
     text-decoration: none;
-    position: relative;
-    top: .7em;
-    left: 45em;
+    position: absolute;
+    left: 75vh;
 }
 
 .link2 {
-    left: 43em;
-    top: 10em;
+    left: 0%;
+    justify-content: right;
+    text-align: right;
 }
 
 .link3 {
-    top: 9em;
+    top: 42%;
+    left: 36%;
+    justify-content: right;
+    text-align: right;
 }
 
 .menu {
-    display: inline-block;
+    display: block;
     position: relative;
+    width: 12px;
+    height: 12px;
+    top: 180%;
+    left: 2%;
 }
 
 .menu_img {
-    width: 2.5em;
+    width: 24px;
+    height: 24px;
     position: relative;
-    top: 1em;
-    left: 2em;
 }
  
 .menu_content {
@@ -381,8 +382,8 @@
     position: relative;
     background-color: black;
     color: white;
-    min-width: 160px;
-    margin: -2.2em 1em;
+    min-width: 120px;
+    margin: 0;
     padding: 12px 16px;
     border-radius: 10px;
     border: solid 2px white;
@@ -401,6 +402,7 @@
     position: relative;
     padding-top: 1em;
     left: .6em;
+    font-size: 12px;
 }
 
 .pseudo_btn {
@@ -410,14 +412,16 @@
 
 .menu:focus-within .menu_content {
     display: block;
+    position: absolute;
 }
 
 .cross {
     position: relative;
     top: 1em;
     left: .5em;
-    margin-bottom: 1em;
-    width: 1.3em;
+    margin-bottom: 8%;
+    width: 16px;
+    height: 16px;
     animation: transform 1s forwards;
 }
 
@@ -427,34 +431,581 @@
 }
 
 .footer {
-    width: 120em;
+    width: 101.4%;
+    height: 12%;
+    margin: 0;
     position: absolute;
-    bottom: -.2em;
-    left: -.2em;
+    top: 84vh;
+    left: -.8%;
 }
 
 .hmif {
-    position: absolute;
-    width: 2em;
-    padding-left: 2em;
-    bottom: 1em;
-    margin-top: -3.5em;
+    position: relative;
+    width: 4vh;
+    height: 4vh;
+    left: 4vh;
+    top: 21.4vh;
 }
 
 .if {
-    position: absolute;
-    width: 3em;
-    padding-left: 6em;
-    bottom: 1em;
+    position: relative;
+    width: 5vh;
+    height: 3.4vh;
+    left: 6vh;
+    top: 21.4vh;
 }
 
 .usk {
+    position: relative;
+    width: 4vh;
+    height: 4vh;
+    left: 8vh;
+    top: 21.4vh;
+}
+
+.countdown {
+    color: red;
     position: absolute;
-    width: 2em;
-    padding-left: 11em;
-    bottom: 1em;
+    padding: 0px 20px;
+    font-family: easvhs;
+    font-size: 12px;
+    background-color: white;
+    border: solid red 1.6px;
+    border-radius: 10px;
+    left: 48%;
+    top: 16%;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_v {
+    color: black;
+    display: flex;
+    font-size: 2.8em;
+    overflow: hidden;
+    border-right: .1em solid #fbc531;
+    height: 64px;
+    white-space: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1em;
+    letter-spacing: .05em;
+    text-align: center;
+    align-items: center;
+    font-family: upheaval;
+}
+
+@keyframes typing3 {
+    from { width: 0 }
+    to { width: 8% }
+}
+
+.box_va {
+    position: relative;
+    width: 20em;
+    height: 25em;
+    background: beige;
+    border-radius: 2vh;
+    border: solid black 1px;
+    box-shadow: black 8px 8px;
+}
+
+.box_vb {
+    position: relative;
+    width: 20em;
+    height: 10em;
+    bottom: 0;
+    background: black;
+    border-radius: 0 0 14px 15px;
+}
+
+.cndt {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.info {
+    font-family: easvhs;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+
+.name_p {
+    margin-top: 1.5em;
+    letter-spacing: .12em;
+}
+
+.let {
+    font-size: 18px;
+    margin-top: 2.5em;
+    letter-spacing: .11em;
+}
+
+.box_vbi{
+    position: relative;
+}
+
+.btn_v {
+    position: absolute;
+    font-family: easvhs;
+    font-size: 17px;
+    letter-spacing: .17em;
+    width: 19em;
+    height: 3em;
+    background: #F1C40F;
+    border-radius: 12px;
+    top: 39em;
+    left: 28.2em;
+    box-shadow: black 6px 6px;
+}
+
+.btn_v2 {
+    position: absolute;
+    left: 61.2em;
+}
+
+.btn_v3 {
+    position: absolute;
+    left: 80em;
+}
+
+.btn_v4 {
+    position: absolute;
+    left: 61.2em;
+}
+
+.btn_v:hover {
+    position: absolute;
+    background: green;
+    color: white;
+    top: 39.2em;
+    left: 28.4em;
+    box-shadow: black 2px 2px;
+}
+
+.btn_v2:hover {
+    position: absolute;
+    left: 61.4em;
 }
 
 .vote {
-    overflow: hidden;
+    font-family: easvhs;
+}
+
+.myChart {
+    width: 900px;
+    height: 900px;
+    font-family: easvhs;
+    position: relative;
+    left: 50em;
+}
+
+.count {
+    display: flex;
+    background: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+.container_q {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.charta {
+    position: absolute;
+    background-color: #faecb0;
+    padding: 8vh;
+    border-radius: 1vh;
+    top: 40vh;
+    left: 2vh;
+    box-shadow: 1vh 1vh black;
+    justify-content: center;
+}
+
+.txt {
+    position: absolute;
+    top: 25vh;
+    left: 4vh;
+    width: 50vh;
+    height: 10vh;
+    background-color: #faecb0;
+    border-radius: 1vh;
+    box-shadow: 1vh 1vh black;
+    z-index: 0;
+}
+
+.txt_q {
+    display: flex;
+    position: absolute;
+    font-family: upheaval;
+    font-size: 4.5vh;
+    top: -2vh;
+    left: 8vh;
+    z-index: 1;
+}
+
+@media screen and (max-width:425px) {
+    .main {
+        background-color: white;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    .typewriter-animation {
+        color: black;
+        position: absolute;
+        font-size: 2.8vh;
+        left: 4vh;
+        animation: typing1 2.2s;
+    }
+    
+    @keyframes typing1 {
+        from { width: 0 }
+        to { width: 100% }
+    }
+
+    .box {
+        top: 10vh;
+        left: 4vh;
+        width: 30vh;
+        height: 30vh;
+        box-shadow: 1vh 1vh black;
+        margin-top: 1vh;
+    }
+
+    .round-lottie {
+        display: flex;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    
+    .text {
+        display: flex;
+        position: absolute; 
+        font-size: .8em;
+        top: 90vw;
+        left: 8vw;  
+        letter-spacing: 1;
+        color: black;
+        margin-top: 0;
+        margin-left: 7vw;
+        margin-right: -20vw;
+    }
+
+    .p1 {
+        font-size: 1.3vh;
+    }
+
+    .p2 {
+        margin-top: 1vh;
+        font-size: 1.3vh;
+    }
+
+    .button {
+        display: flex;
+        box-shadow: 2px 5px black;
+        font-size: 2vh;
+        margin-top: 1vh;
+    }
+
+    .button1 {
+        display: flex;
+        position: absolute;
+        top: 75vh;
+        left: 6vh;
+        padding: 2% 34.2%;
+    }
+
+    .button2 {
+        display: flex;
+        position: absolute;
+        top: 82vh;
+        left: 2vh;
+        padding: 2% 38%;
+    }
+
+    .button3 {
+        display: flex;
+        position: absolute;
+        top: 90vh;
+        left: -1vh;
+        padding: 3% 34%; 
+    }
+
+    .button4 {
+        display: flex;
+        position: absolute;
+        top: 100.8vh;
+        left: -6.2vh;
+        padding: 3% 37.4%; 
+    }
+
+    .hmif {
+        display: none;
+    }
+
+    .if {
+        display: none;
+    }
+
+    .usk {
+        display: none;
+    }
+
+    .footer {
+        position: absolute;
+        top: 118vh;
+        width: 125%;
+        min-height: auto;
+        height: 5vh;
+        left: -1vh;
+    }
+
+    .footer_t {
+        font-size: 1.2vh;
+        position: absolute;
+        color: rgba(0, 0, 0, 50%);
+        top: 120.1vh;
+        left: 4vh;
+    }
+
+    .login_pg {
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    .icon {
+        position: absolute;
+        left: 3vh;
+        top: 3vh;
+        width: 5vh;
+        height: auto;
+    }
+
+    .form {
+        display: flex;
+        position: relative;
+        top: 20vh;
+        width: 150%;
+        height: 60vh;
+        left: 1.5vh;
+    }
+
+    .stars {
+        display: none;
+    }
+
+    .text_rg {
+        display: flex;
+        position: relative;
+        font-size: 4.5vh;
+        top: 45vh;
+        left: -37vh;
+        animation: typing2 2s forwards;
+    }
+
+    @keyframes typing2 {
+        from { width: 0 }
+        to { width: 110% }
+    }
+
+    .text_lg {
+        font-family: upheaval;
+        display: flex;
+        position: relative;
+        font-size: 4.5vh;
+        top: 2vh;
+        left: 3vh;
+        animation: typing3 2s forwards;
+    }
+
+    @keyframes typing3 {
+        from { width: 0 }
+        to { width: 40% }
+    }
+
+    .inp {
+        text-align: left;
+        font-family: easvhs;
+        letter-spacing: .12vh;
+        border-radius: 1vh;;
+        margin-left: 1vh;
+
+    }
+
+    .inp1 {
+        position: relative;
+        top: 42vh;
+        left: 1.5vh;
+        padding: 3vh 20vh;
+        padding-left: 2vh;
+    }
+
+    .inp2 {
+        position: relative;
+        top: 42vh;
+        left: 1.5vh;
+        padding: 3vh 20vh;
+        padding-left: 2vh;
+    }
+
+    .inp3 {
+        position: relative;
+        top: 42vh;
+        left: 1.5vh;
+        padding: 3vh 20vh;
+        padding-left: 2vh;
+    }
+
+    .inp4 {
+        position: absolute;
+        top: 15vh;
+        left: 1.5vh;
+        padding: 3vh 22vh;
+        padding-left: 2vh;
+    }
+
+    .inp5 {
+        position: relative;
+        top: 19vh;
+        left: 1.5vh;
+        padding: 3vh 22vh;
+        padding-left: 2vh;
+    }
+
+    .link2 {
+        position: relative;
+        top: 42vh;
+        left: -30vh;
+    }
+
+    .link3 {
+        position: relative;
+        top: 19vh;
+        left: 1vh;
+    }
+
+    .submit {
+        font-family: easvhs;
+        font-size: 1.6vh;
+        position: relative;
+        top: 41vh;
+        left: 18vh;
+        padding: 2vh 5vh;
+        border-radius: 1vh;
+        background: #F1C40F;
+        box-shadow: .6vh .6vh black;
+    }
+
+    .submit:hover {
+        background-color: green;
+        color: white;
+        left: 15.2vh;
+        box-shadow: .2vh .2vh black;
+    }
+
+    .submit2 {
+        position: relative;
+        top: 19vh;
+        left: 17.5vh;
+    }
+
+    .submit2:hover {
+        background-color: green;
+        color: white;
+        top: 19.2vh;
+        left: 17.7vh;
+    }
+
+    .footer_rg {
+        position: absolute;
+        top: 118vh;
+        width: 125%;
+        min-height: auto;
+        height: 5vh;
+        left: -1vh;
+    }
+
+    .count {
+        display: flex;
+        background: white;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        min-height: 100vh;
+    }
+
+    .container_q {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .charta {
+        position: absolute;
+        background-color: #faecb0;
+        padding: 8vh;
+        border-radius: 1vh;
+        top: 40vh;
+        left: 2vh;
+        box-shadow: 1vh 1vh black;
+        justify-content: center;
+    }
+
+    .txt {
+        position: absolute;
+        top: 25vh;
+        left: 4vh;
+        width: 50vh;
+        height: 10vh;
+        background-color: #faecb0;
+        border-radius: 1vh;
+        box-shadow: 1vh 1vh black;
+        z-index: 0;
+    }
+
+    .txt_q {
+        display: flex;
+        position: absolute;
+        font-family: upheaval;
+        font-size: 4.5vh;
+        top: -2vh;
+        left: 8vh;
+        z-index: 1;
+    }
+}
+
+@media (min-width:426px) and (max-width:1024px) {
+    .main {
+        overflow: scroll;
+    }
+
+    .typewriter-animation {
+        color: black;
+        position: absolute;
+        font-size: 5vh;
+        animation: typing1 2s;
+        text-align: center;
+        align-items: center;
+        left: 30%;
+    }
+    
+    @keyframes typing1 {
+        from { width:   0 }
+        to { width: 100% }
+    }
+
+    .footer {
+        display: flex;
+        position: absolute;
+        bottom: -60vh;
+    }
 }
