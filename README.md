@@ -42,10 +42,12 @@
     <h2>ℹ️ About</h2>
 </div>
 
-<h4>
+<h2>
     Figma: 
-    <a href="https://www.figma.com/design/VgkaqMaIDDh2IdytyGy1Gk/Website-MUBES-2024?node-id=0-1&t=fv5I9m3xOcn4Hpp4-1">Prototype</a>
-</h4>
+    <h5>
+        <a href="https://www.figma.com/design/VgkaqMaIDDh2IdytyGy1Gk/Website-MUBES-2024?node-id=0-1&t=fv5I9m3xOcn4Hpp4-1">Prototype</a>
+    </h5>
+</h2>
 
 <h2>
     🔠 Fonts
@@ -57,12 +59,14 @@
     </h5>
 </h2>
 
-<h4>
+<h2>
     📇 License: 
-    <p>
-        <i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assets -> fonts -> about.txt</i>
-    </p>
-</h4>
+    <h5>
+        <p>
+            <i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assets -> fonts -> about.txt</i>
+        </p>
+    </h5>
+</h2>
 
 <h2>
     📖 Frameworks and Languages
@@ -74,9 +78,12 @@
     </h5>
 </h2>
 
-<h4>
-    📂 Database: MySQL
-</h4>
+<h2>
+    📂 Database: 
+    <h5>
+        MySQL
+    </h5>
+</h2>
 
 <h2>
     📑 Documentary
@@ -93,13 +100,15 @@
 <a href="https://drive.google.com/uc?export=view&id=1gNieU2Tc8BdUmUUUHENazxEko5aJxIVk">
     <img src="https://drive.google.com/uc?export=view&id=1gNieU2Tc8BdUmUUUHENazxEko5aJxIVk" style="width: 160px; max-width: 100%; height: 100px; max-height: 100%" title="Click to enlarge picture" />
         
-<h4>
+<h2>
     🌐 Website URL: 
-    <a href="https://mubeshmif.my.id">
-        Website MUBES 2024
-        <a>(Active until January 17, 2025)</a>
-    </a>
-</h4>
+    <h5>
+        <a href="https://mubeshmif.my.id">
+            Website MUBES 2024
+            <a>(Active until January 17, 2025)</a>
+        </a>
+    </h5>
+</h2>
 
 <h2>
     🎉 Big Thanks to
