@@ -29,7 +29,12 @@ Himpunan Mahasiswa Informatika ke VII.
 </h3>
 
 <h4>
-    📇 License: <p>assets -> fonts -> about.txt</p>
+    📇 License: 
+    <p>
+        <i>
+            assets -> fonts -> about.txt
+        </i>
+    </p>
 </h4>
 
 <h3>📖 Frameworks and Languages</h3>
@@ -57,7 +62,10 @@ Himpunan Mahasiswa Informatika ke VII.
 
 <h4>
     🌐 Website URL: 
-    <a href="https://mubeshmif.my.id">Website MUBES 2024
+    <a href="https://mubeshmif.my.id">
+        <u>
+            Website MUBES 2024
+        </u>
         <a>(Active until January 17, 2025)</a>
     </a>
 </h4>
