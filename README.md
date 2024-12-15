@@ -111,15 +111,15 @@
 </h2>
 
 <a href="https://github.com/naufalhanif25/website-mubes-2024/blob/main/home.png">
-    <img src="https://github.com/naufalhanif25/website-mubes-2024/blob/main/home.png" style="width: 300px; max-width: 100%; height: 180px; max-height: 100%" />
+    <img src="https://github.com/naufalhanif25/website-mubes-2024/blob/main/home.png" style="width: 320px; max-width: 100%; height: 180px; max-height: 100%" />
 <a href="https://github.com/naufalhanif25/website-mubes-2024/blob/main/register.png">
-    <img src="https://github.com/naufalhanif25/website-mubes-2024/blob/main/register.png" style="width: 160px; max-width: 100%; height: 100px; max-height: 100%" title="Click to enlarge picture" />
+    <img src="https://github.com/naufalhanif25/website-mubes-2024/blob/main/register.png" style="width: 320px; max-width: 100%; height: 180px; max-height: 100%" title="Click to enlarge picture" />
 <a href="https://github.com/naufalhanif25/website-mubes-2024/blob/main/login.png">
-    <img src="https://github.com/naufalhanif25/website-mubes-2024/blob/main/login.png" style="width: 160px; max-width: 100%; height: 100px; max-height: 100%" title="Click to enlarge picture" />
+    <img src="https://github.com/naufalhanif25/website-mubes-2024/blob/main/login.png" style="width: 320px; max-width: 100%; height: 180px; max-height: 100%" title="Click to enlarge picture" />
 <a href="https://github.com/naufalhanif25/website-mubes-2024/blob/main/candidate.png">
-    <img src="https://github.com/naufalhanif25/website-mubes-2024/blob/main/candidate.png" style="width: 160px; max-width: 100%; height: 100px; max-height: 100%" title="Click to enlarge picture" />
+    <img src="https://github.com/naufalhanif25/website-mubes-2024/blob/main/candidate.png" style="width: 320px; max-width: 100%; height: 180px; max-height: 100%" title="Click to enlarge picture" />
 <a href="https://github.com/naufalhanif25/website-mubes-2024/blob/main/quickcount.png">
-    <img src="https://github.com/naufalhanif25/website-mubes-2024/blob/main/quickcount.png" style="width: 160px; max-width: 100%; height: 100px; max-height: 100%" title="Click to enlarge picture" />
+    <img src="https://github.com/naufalhanif25/website-mubes-2024/blob/main/quickcount.png" style="width: 320px; max-width: 100%; height: 180px; max-height: 100%" title="Click to enlarge picture" />
 
 <h2>
     🌐 Website URL: 
