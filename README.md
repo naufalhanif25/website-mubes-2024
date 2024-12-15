@@ -36,12 +36,15 @@ Himpunan Mahasiswa Informatika ke VII.
 **📑 Documentary:** 
 
 <a href="https://drive.google.com/uc?export=view&id=1cwNUlDMXA6xLdZZLV_hAIwEdvlHXpApj">
-    <img src="https://drive.google.com/uc?export=view&id=1cwNUlDMXA6xLdZZLV_hAIwEdvlHXpApj" style="width: 160px; max-width: 100%; height: 80px; max-height: 100%" title="Click to enlarge picture" />
-
-2. [Register](https://drive.google.com/file/d/1Q-1F_0QwUdhyBsm9QSNFLPsBjnSAkssX/view?usp=drive_link)
-3. [Login](https://drive.google.com/file/d/1_bAimfhYUG0Cd9dbvRhME-vkoPa-VeTO/view?usp=drive_link)
-4. [Vote](https://drive.google.com/file/d/1andKdT653DbjSc5FvvtmEfSBlJi8BqZv/view?usp=drive_link)
-5. [Quick Count](https://drive.google.com/file/d/1gNieU2Tc8BdUmUUUHENazxEko5aJxIVk/view?usp=drive_link)
+    <img src="https://drive.google.com/uc?export=view&id=1cwNUlDMXA6xLdZZLV_hAIwEdvlHXpApj" style="width: 160px; max-width: 100%; height: 86px; max-height: 100%" title="Click to enlarge picture" />
+<a href="https://drive.google.com/uc?export=view&id=1Q-1F_0QwUdhyBsm9QSNFLPsBjnSAkssX">
+    <img src="https://drive.google.com/uc?export=view&id=1Q-1F_0QwUdhyBsm9QSNFLPsBjnSAkssX" style="width: 160px; max-width: 100%; height: 86px; max-height: 100%" title="Click to enlarge picture" />
+<a href="https://drive.google.com/uc?export=view&id=1_bAimfhYUG0Cd9dbvRhME-vkoPa-VeTO">
+    <img src="https://drive.google.com/uc?export=view&id=1_bAimfhYUG0Cd9dbvRhME-vkoPa-VeTO" style="width: 160px; max-width: 100%; height: 86px; max-height: 100%" title="Click to enlarge picture" />
+<a href="https://drive.google.com/uc?export=view&id=1andKdT653DbjSc5FvvtmEfSBlJi8BqZv">
+    <img src="https://drive.google.com/uc?export=view&id=1andKdT653DbjSc5FvvtmEfSBlJi8BqZv" style="width: 160px; max-width: 100%; height: 86px; max-height: 100%" title="Click to enlarge picture" />
+<a href="https://drive.google.com/uc?export=view&id=1gNieU2Tc8BdUmUUUHENazxEko5aJxIVk">
+    <img src="https://drive.google.com/uc?export=view&id=1gNieU2Tc8BdUmUUUHENazxEko5aJxIVk" style="width: 160px; max-width: 100%; height: 86px; max-height: 100%" title="Click to enlarge picture" />
 
 **🌐 Website URL:** [Website MUBES 2024](https://mubeshmif.my.id) (Active until January 17, 2025)
 
