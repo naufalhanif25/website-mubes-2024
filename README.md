@@ -110,6 +110,8 @@
     📑 Documentation
 </h2>
 
+![alt text](https://github.com/naufalhanif25/website-mubes-2024.git/home.jpg)
+
 <a href="https://drive.google.com/uc?export=view&id=1cwNUlDMXA6xLdZZLV_hAIwEdvlHXpApj">
     <img src="https://github.com/naufalhanif25/website-mubes-2024.git/home.jpg" style="width: 160px; max-width: 100%; height: 100px; max-height: 100%" />
 <a href="https://drive.google.com/uc?export=view&id=1Q-1F_0QwUdhyBsm9QSNFLPsBjnSAkssX">
