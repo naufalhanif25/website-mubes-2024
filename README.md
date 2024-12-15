@@ -34,7 +34,8 @@ Himpunan Mahasiswa Informatika ke VII.
 **📂 Database:** MySQL
 
 **📑 Documentary:**
-![Example Image](https://drive.google.com/uc?id=1cwNUlDMXA6xLdZZLV_hAIwEdvlHXpApj)
+<a href="https://drive.google.com/uc?export=view&id=1cwNUlDMXA6xLdZZLV_hAIwEdvlHXpApj">
+<img src="https://drive.google.com/uc?export=view&id=1cwNUlDMXA6xLdZZLV_hAIwEdvlHXpApj" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
 2. [Register](https://drive.google.com/file/d/1Q-1F_0QwUdhyBsm9QSNFLPsBjnSAkssX/view?usp=drive_link)
 3. [Login](https://drive.google.com/file/d/1_bAimfhYUG0Cd9dbvRhME-vkoPa-VeTO/view?usp=drive_link)
