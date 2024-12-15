@@ -107,11 +107,11 @@
 </h2>
 
 <h2>
-    📑 Documentary
+    📑 Documentation
 </h2>
 
 <a href="https://drive.google.com/uc?export=view&id=1cwNUlDMXA6xLdZZLV_hAIwEdvlHXpApj">
-    <img src="https://drive.google.com/uc?export=view&id=1cwNUlDMXA6xLdZZLV_hAIwEdvlHXpApj" style="width: 160px; max-width: 100%; height: 100px; max-height: 100%" title="Click to enlarge picture" />
+    <img src="https://drive.usercontent.google.com/download?id=1cwNUlDMXA6xLdZZLV_hAIwEdvlHXpApj&export=view&authuser=1" style="width: 160px; max-width: 100%; height: 100px; max-height: 100%" title="Click to enlarge picture" />
 <a href="https://drive.google.com/uc?export=view&id=1Q-1F_0QwUdhyBsm9QSNFLPsBjnSAkssX">
     <img src="https://drive.google.com/uc?export=view&id=1Q-1F_0QwUdhyBsm9QSNFLPsBjnSAkssX" style="width: 160px; max-width: 100%; height: 100px; max-height: 100%" title="Click to enlarge picture" />
 <a href="https://drive.google.com/uc?export=view&id=1_bAimfhYUG0Cd9dbvRhME-vkoPa-VeTO">
