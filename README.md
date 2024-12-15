@@ -47,7 +47,7 @@
     <a href="https://www.figma.com/design/VgkaqMaIDDh2IdytyGy1Gk/Website-MUBES-2024?node-id=0-1&t=fv5I9m3xOcn4Hpp4-1">Prototype</a>
 </h4>
 
-<h3>
+<h2>
     🔠 Fonts
     <h5>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Upheaval TT BRK</p>
@@ -55,7 +55,7 @@
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Caudex</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Bell MT</p>
     </h5>
-</h3>
+</h2>
 
 <h4>
     📇 License: 
@@ -64,7 +64,7 @@
     </p>
 </h4>
 
-<h3>
+<h2>
     📖 Frameworks and Languages
     <h5>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Laravel (PHP)</p>
@@ -72,13 +72,15 @@
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Bootstrap</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. JavaScript</p>
     </h5>
-</h3>
+</h2>
 
 <h4>
     📂 Database: MySQL
 </h4>
 
-<h3>📑 Documentary</h3>
+<h2>
+    📑 Documentary
+</h2>
 
 <a href="https://drive.google.com/uc?export=view&id=1cwNUlDMXA6xLdZZLV_hAIwEdvlHXpApj">
     <img src="https://drive.google.com/uc?export=view&id=1cwNUlDMXA6xLdZZLV_hAIwEdvlHXpApj" style="width: 160px; max-width: 100%; height: 100px; max-height: 100%" title="Click to enlarge picture" />
@@ -90,7 +92,7 @@
     <img src="https://drive.google.com/uc?export=view&id=1andKdT653DbjSc5FvvtmEfSBlJi8BqZv" style="width: 160px; max-width: 100%; height: 100px; max-height: 100%" title="Click to enlarge picture" />
 <a href="https://drive.google.com/uc?export=view&id=1gNieU2Tc8BdUmUUUHENazxEko5aJxIVk">
     <img src="https://drive.google.com/uc?export=view&id=1gNieU2Tc8BdUmUUUHENazxEko5aJxIVk" style="width: 160px; max-width: 100%; height: 100px; max-height: 100%" title="Click to enlarge picture" />
-
+        
 <h4>
     🌐 Website URL: 
     <a href="https://mubeshmif.my.id">
@@ -99,7 +101,7 @@
     </a>
 </h4>
 
-<h3>
+<h2>
     🎉 Big Thanks to
     <h5>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 🧑🏻‍💻 Abdurrahman Marzuki (Backend)</p>
@@ -107,4 +109,4 @@
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 🧑🏻‍💻 Muhammad Hizqil Alfi (Frontend)</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. 🧑🏻‍💻 Naufal Hanif (Frontend)</p>
     </h5>
-</h3>
+</h2>
