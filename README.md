@@ -110,18 +110,16 @@
     📑 Documentation
 </h2>
 
-![alt text](https://github.com/naufalhanif25/website-mubes-2024.git/home.jpg)
-
-<a href="https://drive.google.com/uc?export=view&id=1cwNUlDMXA6xLdZZLV_hAIwEdvlHXpApj">
+<a href="https://github.com/naufalhanif25/website-mubes-2024/blob/main/home.png">
     <img src="https://github.com/naufalhanif25/website-mubes-2024/blob/main/home.png" style="width: 160px; max-width: 100%; height: 100px; max-height: 100%" />
-<a href="https://drive.google.com/uc?export=view&id=1Q-1F_0QwUdhyBsm9QSNFLPsBjnSAkssX">
-    <img src="https://drive.google.com/uc?export=view&id=1Q-1F_0QwUdhyBsm9QSNFLPsBjnSAkssX" style="width: 160px; max-width: 100%; height: 100px; max-height: 100%" title="Click to enlarge picture" />
-<a href="https://drive.google.com/uc?export=view&id=1_bAimfhYUG0Cd9dbvRhME-vkoPa-VeTO">
-    <img src="https://drive.google.com/uc?export=view&id=1_bAimfhYUG0Cd9dbvRhME-vkoPa-VeTO" style="width: 160px; max-width: 100%; height: 100px; max-height: 100%" title="Click to enlarge picture" />
-<a href="https://drive.google.com/uc?export=view&id=1andKdT653DbjSc5FvvtmEfSBlJi8BqZv">
-    <img src="https://drive.google.com/uc?export=view&id=1andKdT653DbjSc5FvvtmEfSBlJi8BqZv" style="width: 160px; max-width: 100%; height: 100px; max-height: 100%" title="Click to enlarge picture" />
-<a href="https://drive.google.com/uc?export=view&id=1gNieU2Tc8BdUmUUUHENazxEko5aJxIVk">
-    <img src="https://drive.google.com/uc?export=view&id=1gNieU2Tc8BdUmUUUHENazxEko5aJxIVk" style="width: 160px; max-width: 100%; height: 100px; max-height: 100%" title="Click to enlarge picture" />
+<a href="https://github.com/naufalhanif25/website-mubes-2024/blob/main/register.png">
+    <img src="https://github.com/naufalhanif25/website-mubes-2024/blob/main/register.png" style="width: 160px; max-width: 100%; height: 100px; max-height: 100%" title="Click to enlarge picture" />
+<a href="https://github.com/naufalhanif25/website-mubes-2024/blob/main/login.png">
+    <img src="https://github.com/naufalhanif25/website-mubes-2024/blob/main/login.png" style="width: 160px; max-width: 100%; height: 100px; max-height: 100%" title="Click to enlarge picture" />
+<a href="https://github.com/naufalhanif25/website-mubes-2024/blob/main/candidate.png">
+    <img src="https://github.com/naufalhanif25/website-mubes-2024/blob/main/candidate.png" style="width: 160px; max-width: 100%; height: 100px; max-height: 100%" title="Click to enlarge picture" />
+<a href="https://github.com/naufalhanif25/website-mubes-2024/blob/main/quickcount.png">
+    <img src="https://github.com/naufalhanif25/website-mubes-2024/blob/main/quickcount.png" style="width: 160px; max-width: 100%; height: 100px; max-height: 100%" title="Click to enlarge picture" />
 
 <h2>
     🌐 Website URL: 
