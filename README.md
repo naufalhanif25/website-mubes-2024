@@ -20,10 +20,12 @@ Himpunan Mahasiswa Informatika ke VII.
 </h4>
 
 <h3>🔠 Fonts
-    <p3>1. Upheaval TT BRK</p3>
-    <p3>2. EASVHS</p3>
-    <p3>3. Caudex</p3>
-    <p3>4. Bell MT</p3>
+    <h4>
+        <p>1. Upheaval TT BRK</p>
+        <p>2. EASVHS</p>
+        <p>3. Caudex</p>
+        <p>4. Bell MT</p>
+    </h4>
 </h3>
 
 <h4>
