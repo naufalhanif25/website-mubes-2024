@@ -19,11 +19,12 @@ Himpunan Mahasiswa Informatika ke VII.
     <a href="[https://mubeshmif.my.id](https://www.figma.com/design/VgkaqMaIDDh2IdytyGy1Gk/Website-MUBES-2024?node-id=0-1&t=fv5I9m3xOcn4Hpp4-1)">Prototype</a>
 </h4>
 
-<h3>🔠 Fonts</h3>
-1. Upheaval TT BRK
-2. EASVHS
-3. Caudex
-4. Bell MT
+<h3>🔠 Fonts
+    <p>1. Upheaval TT BRK</p>
+    <p>2. EASVHS</p>
+    <p>3. Caudex</p>
+    <p>4. Bell MT</p>
+</h3>
 
 <h4>
     📇 License: assets -> fonts -> about.txt
