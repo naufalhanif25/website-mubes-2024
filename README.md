@@ -15,7 +15,6 @@ Himpunan Mahasiswa Informatika ke VII.
     <h2>ℹ️ About</h2>
 </div>
 
-
 **Figma:** [Prototype](https://www.figma.com/design/VgkaqMaIDDh2IdytyGy1Gk/Website-MUBES-2024?node-id=0-1&t=fv5I9m3xOcn4Hpp4-1)
 
 <h3>🔠 Fonts</h3>
@@ -24,7 +23,6 @@ Himpunan Mahasiswa Informatika ke VII.
 3. Caudex
 4. Bell MT
 
-
 **📇 License:** *assets -> fonts -> about.txt*
 
 <h3>📖 Frameworks and Languages</h3>
@@ -32,7 +30,6 @@ Himpunan Mahasiswa Informatika ke VII.
 2. Tailwind
 3. Bootstrap
 4. JavaScript
-
 
 **📂 Database:** MySQL
 
@@ -49,6 +46,9 @@ Himpunan Mahasiswa Informatika ke VII.
 <a href="https://drive.google.com/uc?export=view&id=1gNieU2Tc8BdUmUUUHENazxEko5aJxIVk">
     <img src="https://drive.google.com/uc?export=view&id=1gNieU2Tc8BdUmUUUHENazxEko5aJxIVk" style="width: 160px; max-width: 100%; height: 100px; max-height: 100%" title="Click to enlarge picture" />
 
+<h3>
+    🌐 Website URL: <a href="https://mubeshmif.my.id">Website MUBES 2024</a> <p>(Active until January 17, 2025)</p>
+</h3>
 
 **🌐 Website URL:** [Website MUBES 2024](https://mubeshmif.my.id) (Active until January 17, 2025)
 
