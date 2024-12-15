@@ -75,8 +75,10 @@
 
 <h3>
     🎉 Big Thanks to
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 🧑🏻‍💻 Abdurrahman Marzuki (Backend)</p>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 🧑🏻‍💻 Muhammad Faruqi (Backend)</p>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 🧑🏻‍💻 Muhammad Hizqil Alfi (Frontend)</p>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. 🧑🏻‍💻 Naufal Hanif (Frontend)</p>
+    <h5>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 🧑🏻‍💻 Abdurrahman Marzuki (Backend)</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 🧑🏻‍💻 Muhammad Faruqi (Backend)</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 🧑🏻‍💻 Muhammad Hizqil Alfi (Frontend)</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. 🧑🏻‍💻 Naufal Hanif (Frontend)</p>
+    </h5>
 </h3>
