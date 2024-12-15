@@ -21,10 +21,10 @@ Himpunan Mahasiswa Informatika ke VII.
 
 <h3>🔠 Fonts
     <h5>
-        <p>|   1. Upheaval TT BRK</p>
-        <p>|   2. EASVHS</p>
-        <p>|   3. Caudex</p>
-        <p>|   4. Bell MT</p>
+        <p>&nbsp1. Upheaval TT BRK</p>
+        <p>&nbsp2. EASVHS</p>
+        <p>&nbsp3. Caudex</p>
+        <p>&nbsp4. Bell MT</p>
     </h5>
 </h3>
 
@@ -61,9 +61,7 @@ Himpunan Mahasiswa Informatika ke VII.
 <h4>
     🌐 Website URL: 
     <a href="https://mubeshmif.my.id">
-        <p>
-            <u>Website MUBES 2024</u>
-        </p>
+        Website MUBES 2024
         <a>(Active until January 17, 2025)</a>
     </a>
 </h4>
