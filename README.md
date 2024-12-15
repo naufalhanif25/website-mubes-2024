@@ -5,11 +5,13 @@
 <div align="center">
     <h2>📝 Description</h2>
 </div>
-    
-Website E-Vote MUBES Informatika 2024 adalah website 
-pemilihan ketua Himpunan Mahasiswa Informatika (HMIF) 
-periode 2024-2025 dalam rangka Musyawarah Besar (MUBES) 
-Himpunan Mahasiswa Informatika ke VII.
+
+<p>
+    Website E-Vote MUBES Informatika 2024 adalah website 
+    pemilihan ketua Himpunan Mahasiswa Informatika (HMIF) 
+    periode 2024-2025 dalam rangka Musyawarah Besar (MUBES) 
+    Himpunan Mahasiswa Informatika ke VII.
+</p>
 
 <div align="center">
     <h2>ℹ️ About</h2>
@@ -19,27 +21,32 @@ Himpunan Mahasiswa Informatika ke VII.
     <a href="[https://mubeshmif.my.id](https://www.figma.com/design/VgkaqMaIDDh2IdytyGy1Gk/Website-MUBES-2024?node-id=0-1&t=fv5I9m3xOcn4Hpp4-1)">Prototype</a>
 </h4>
 
-<h3>🔠 Fonts
+<h3>
+    🔠 Fonts
     <h5>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Upheaval TT BRK</p>
-        <p>&nbsp;2. EASVHS</p>
-        <p>&nbsp;3. Caudex</p>
-        <p>&nbsp;4. Bell MT</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. EASVHS</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Caudex</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Bell MT</p>
     </h5>
 </h3>
 
 <h4>
     📇 License: 
     <p>
-        <i>assets -> fonts -> about.txt</i>
+        <i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assets -> fonts -> about.txt</i>
     </p>
 </h4>
 
-<h3>📖 Frameworks and Languages</h3>
-1. Laravel (PHP)
-2. Tailwind
-3. Bootstrap
-4. JavaScript
+<h3>
+    📖 Frameworks and Languages
+    <h5>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Laravel (PHP)</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Tailwind</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Bootstrap</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. JavaScript</p>
+    </h5>
+</h3>
 
 <h4>
     📂 Database: MySQL
@@ -68,8 +75,8 @@ Himpunan Mahasiswa Informatika ke VII.
 
 <h3>
     🎉 Big Thanks to
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 🧑🏻‍💻 Abdurrahman Marzuki (Backend)</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 🧑🏻‍💻 Muhammad Faruqi (Backend)</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 🧑🏻‍💻 Muhammad Hizqil Alfi (Frontend)</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. 🧑🏻‍💻 Naufal Hanif (Frontend)</p>
 </h3>
-1. 🧑🏻‍💻 Abdurrahman Marzuki (Backend)
-2. 🧑🏻‍💻 Muhammad Faruqi (Backend)
-3. 🧑🏻‍💻 Muhammad Hizqil Alfi (Frontend)
-4. 🧑🏻‍💻 Naufal Hanif (Frontend)
