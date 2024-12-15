@@ -42,16 +42,19 @@
     <h2>ℹ️ About</h2>
 </div>
 
-<h2>
-    Figma: 
+<h3>
+    🎨 Figma: 
     <h5>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="https://www.figma.com/design/VgkaqMaIDDh2IdytyGy1Gk/Website-MUBES-2024?node-id=0-1&t=fv5I9m3xOcn4Hpp4-1">Website MUBES 2024 - Prototype</a>
         </p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+        </p>
     </h5>
-</h2>
+</h3>
 
-<h2>
+<h3>
     🔠 Fonts
     <h5>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Upheaval TT BRK</p>
@@ -59,18 +62,18 @@
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Caudex</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Bell MT</p>
     </h5>
-</h2>
+</h3>
 
-<h2>
+<h3>
     📇 License: 
     <h5>
         <p>
             <i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assets -> fonts -> about.txt</i>
         </p>
     </h5>
-</h2>
+</h3>
 
-<h2>
+<h3>
     📖 Frameworks and Languages
     <h5>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Laravel (PHP)</p>
@@ -94,9 +97,9 @@
             <img src="https://img.shields.io/badge/Chart%20js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white" />
         </p>
     </h5>
-</h2>
+</h3>
 
-<h2>
+<h3>
     📂 Database: 
     <h5>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -104,11 +107,11 @@
             <img src="https://img.shields.io/badge/Laragon-0E83CD?style=for-the-badge&logo=Laragon&logoColor=white" />
         </p>
     </h5>
-</h2>
+</h3>
 
-<h2>
+<h3>
     📑 Documentation
-</h2>
+</h3>
 
 <div align="center">
     <a href="https://github.com/naufalhanif25/website-mubes-2024/blob/main/home.png">
@@ -123,17 +126,19 @@
     <img src="https://github.com/naufalhanif25/website-mubes-2024/blob/main/quickcount.png" style="width: 320px; max-width: 100%; height: 180px; max-height: 100%" title="Click to enlarge picture" />
 </div>
 
-<h2>
+<h3>
     🌐 Website URL: 
     <h5>
-        <a href="https://mubeshmif.my.id">
-            Website MUBES 2024
-            <a>(Active until January 17, 2025)</a>
-        </a>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://mubeshmif.my.id">
+                Website MUBES 2024
+                <a>(Active until January 17, 2025)</a>
+            </a>
+        </p>
     </h5>
-</h2>
+</h3>
 
-<h2>
+<h3>
     🎉 Big Thanks to
     <h5>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 🧑🏻‍💻 Abdurrahman Marzuki (Backend)</p>
@@ -141,4 +146,4 @@
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 🧑🏻‍💻 Muhammad Hizqil Alfi (Frontend)</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. 🧑🏻‍💻 Naufal Hanif (Frontend)</p>
     </h5>
-</h2>
+</h3>
