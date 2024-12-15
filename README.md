@@ -43,7 +43,8 @@
 </div>
 
 <h4>
-    <a href="[https://mubeshmif.my.id](https://www.figma.com/design/VgkaqMaIDDh2IdytyGy1Gk/Website-MUBES-2024?node-id=0-1&t=fv5I9m3xOcn4Hpp4-1)">Prototype</a>
+    Figma: 
+    <a href="https://www.figma.com/design/VgkaqMaIDDh2IdytyGy1Gk/Website-MUBES-2024?node-id=0-1&t=fv5I9m3xOcn4Hpp4-1">Prototype</a>
 </h4>
 
 <h3>
