@@ -110,16 +110,18 @@
     📑 Documentation
 </h2>
 
-<a href="https://github.com/naufalhanif25/website-mubes-2024/blob/main/home.png">
+<div align="center">
+    <a href="https://github.com/naufalhanif25/website-mubes-2024/blob/main/home.png">
     <img src="https://github.com/naufalhanif25/website-mubes-2024/blob/main/home.png" style="width: 320px; max-width: 100%; height: 180px; max-height: 100%" />
-<a href="https://github.com/naufalhanif25/website-mubes-2024/blob/main/register.png">
+    <a href="https://github.com/naufalhanif25/website-mubes-2024/blob/main/register.png">
     <img src="https://github.com/naufalhanif25/website-mubes-2024/blob/main/register.png" style="width: 320px; max-width: 100%; height: 180px; max-height: 100%" title="Click to enlarge picture" />
-<a href="https://github.com/naufalhanif25/website-mubes-2024/blob/main/login.png">
+    <a href="https://github.com/naufalhanif25/website-mubes-2024/blob/main/login.png">
     <img src="https://github.com/naufalhanif25/website-mubes-2024/blob/main/login.png" style="width: 320px; max-width: 100%; height: 180px; max-height: 100%" title="Click to enlarge picture" />
-<a href="https://github.com/naufalhanif25/website-mubes-2024/blob/main/candidate.png">
+    <a href="https://github.com/naufalhanif25/website-mubes-2024/blob/main/candidate.png">
     <img src="https://github.com/naufalhanif25/website-mubes-2024/blob/main/candidate.png" style="width: 320px; max-width: 100%; height: 180px; max-height: 100%" title="Click to enlarge picture" />
-<a href="https://github.com/naufalhanif25/website-mubes-2024/blob/main/quickcount.png">
+    <a href="https://github.com/naufalhanif25/website-mubes-2024/blob/main/quickcount.png">
     <img src="https://github.com/naufalhanif25/website-mubes-2024/blob/main/quickcount.png" style="width: 320px; max-width: 100%; height: 180px; max-height: 100%" title="Click to enlarge picture" />
+</div>
 
 <h2>
     🌐 Website URL: 
