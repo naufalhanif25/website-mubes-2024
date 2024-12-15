@@ -21,15 +21,15 @@ Himpunan Mahasiswa Informatika ke VII.
 
 <h3>🔠 Fonts
     <h5>
-        <p>    1. Upheaval TT BRK</p>
-        <p>    2. EASVHS</p>
-        <p>    3. Caudex</p>
-        <p>    4. Bell MT</p>
+        <p>|   1. Upheaval TT BRK</p>
+        <p>|   2. EASVHS</p>
+        <p>|   3. Caudex</p>
+        <p>|   4. Bell MT</p>
     </h5>
 </h3>
 
 <h4>
-    📇 License: assets -> fonts -> about.txt
+    📇 License: <p>assets -> fonts -> about.txt</p>
 </h4>
 
 <h3>📖 Frameworks and Languages</h3>
