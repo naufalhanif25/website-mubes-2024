@@ -120,7 +120,7 @@
     <img src="https://drive.google.com/uc?export=view&id=1gNieU2Tc8BdUmUUUHENazxEko5aJxIVk" style="width: 160px; max-width: 100%; height: 100px; max-height: 100%" title="Click to enlarge picture" />
 
 <h2>
-    🌐 Website URL: 
+    <u>🌐 Website URL: </u>
     <h5>
         <a href="https://mubeshmif.my.id">
             Website MUBES 2024
