@@ -81,7 +81,9 @@
 <h2>
     📂 Database: 
     <h5>
-        MySQL
+        <p>
+            <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MySQL</b>
+        </p>
     </h5>
 </h2>
 
