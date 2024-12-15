@@ -36,7 +36,7 @@ Himpunan Mahasiswa Informatika ke VII.
 **📑 Documentary:** 
 
 <a href="https://drive.google.com/file/d/1cwNUlDMXA6xLdZZLV_hAIwEdvlHXpApj/view?usp=drive_link">
-<img src="https://drive.google.com/uc?export=view&id=1cwNUlDMXA6xLdZZLV_hAIwEdvlHXpApj" style="width: 320px; max-width: 100%; height: 160px; max-height: 100%" title="Click to enlarge picture" />
+<img src="https://drive.google.com/file/d/1cwNUlDMXA6xLdZZLV_hAIwEdvlHXpApj/view?usp=drive_link" style="width: 320px; max-width: 100%; height: 160px; max-height: 100%" title="Click to enlarge picture" />
 
 2. [Register](https://drive.google.com/file/d/1Q-1F_0QwUdhyBsm9QSNFLPsBjnSAkssX/view?usp=drive_link)
 3. [Login](https://drive.google.com/file/d/1_bAimfhYUG0Cd9dbvRhME-vkoPa-VeTO/view?usp=drive_link)
